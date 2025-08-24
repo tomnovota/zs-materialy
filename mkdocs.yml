@@ -1,0 +1,131 @@
+site_name: Informatika – 2. stupeň ZŠ
+site_description: Studijní texty pro 4.–9. ročník základní školy
+site_author:
+site_url:
+
+theme:
+name: material
+language: cs
+features:
+- navigation.instant
+- navigation.tracking
+- navigation.footer
+- navigation.tabs
+- navigation.indexes
+- toc.integrate
+- content.code.copy
+- content.action.view
+- search.highlight
+- search.suggest
+palette:
+- media: "(prefers-color-scheme: light)"
+scheme: default
+primary: blue
+accent: indigo
+- media: "(prefers-color-scheme: dark)"
+scheme: slate
+primary: blue
+accent: indigo
+icon:
+repo: fontawesome/brands/github
+
+markdown_extensions:
+
+admonition
+
+toc:
+permalink: true
+
+tables
+
+def_list
+
+attr_list
+
+footnotes
+
+md_in_html
+
+smarty
+
+pymdownx.details
+
+pymdownx.superfences
+
+pymdownx.highlight
+
+pymdownx.inlinehilite
+
+pymdownx.snippets
+
+pymdownx.critic
+
+pymdownx.keys
+
+pymdownx.mark
+
+pymdownx.tilde
+
+plugins:
+
+search
+
+awesome-pages
+
+glightbox
+
+git-revision-date-localized:
+type: date
+fallback_to_build_date: true
+locale: cs
+
+include-markdown
+
+extra:
+social: []
+generator: false
+
+repo_url:
+repo_name:
+
+nav:
+
+Úvod: index.md
+
+ročník:
+
+Přehled: 04/index.md
+
+ročník:
+
+Přehled: 05/index.md
+
+ročník:
+
+Přehled: 06/index.md
+
+ročník:
+
+Přehled: 07/index.md
+
+ročník:
+
+Přehled: 08/index.md
+
+ročník:
+
+Přehled: 09/index.md
+
+watch:
+
+docs
+
+notes:
+
+language: cs je podporovaná v Materialu (české UI pro vyhledávání a prvky)
+
+features toc.integrate zobrazí pravý obsah v hlavním sloupci (čitelnost)
+
+navigation.indexes umožní, že každý adresář může mít index.md jako přehled
+
+awesome-pages plugin může nahradit manuální nav – pokud chceš, lze nechat MkDocs číst pořadí dle .pages souborů, ale výše uvedená nav sekce je jednoduchá a jasná
