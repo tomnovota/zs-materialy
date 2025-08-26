@@ -108,8 +108,6 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - "🏠 Úvod":
-    - index.md
   - "📚 Učební texty":
     - "4. ročník": 04/index.md
     - "5. ročník": 05/index.md  
@@ -117,9 +115,7 @@ nav:
     - "7. ročník": 07/index.md
     - "8. ročník": 08/index.md
     - "9. ročník": 09/index.md
-  - "💡 Dodatky":
-    - dodatky/about.md
-    - dodatky/changelog.md
+  - "Hodnocení": hodnoceni.md
 
 # Extra
 extra:
