@@ -12,7 +12,7 @@
 
 ---
 
-## 🖥️ Představení počítače
+## 🖥️ Představení počítače {#představení-počítače}
 
 ### 📖 Základní pojmy
 
@@ -150,7 +150,7 @@ Příklady:
 
 ---
 
-## 🧰 Operační systém
+## 🧰 Operační systém {#operacni-system}
 
 **Software** = aplikace/programy, které na počítači používáme.
 
@@ -251,7 +251,7 @@ Operační systém je program, který řídí celý počítač:
 
 ---
 
-## 🌐 Síť
+## 🌐 Síť {#síť}
 
 ### 🎯 Co je síť?
 
@@ -480,7 +480,7 @@ K heslu navíc potvrdíme naší identitu dalším způsobem.
 
 ---
 
-## 🏢 Informační systémy
+## 🏢 Informační systémy {#informační-systémy}
 
 ### 🎯 Co je informační systém?
 
@@ -601,7 +601,7 @@ Brno  ◄────60km─── Jihlava
 
 ---
 
-## 🎨 Tvorba digitálního obsahu
+## 🎨 Tvorba digitálního obsahu {#tvorba-digitálního-obsahu}
 
 ### 📄 Dokumenty
 
@@ -757,7 +757,7 @@ informatika -hra     ──► Informatika, ale ne o hrách
 
 ---
 
-## 🧮 Algoritmizace
+## 🧮 Algoritmizace {#algoritmizace}
 
 ### 🎯 Co je problém?
 
@@ -900,7 +900,7 @@ Pass 2: [1, 2, 5, 8, 9]
 
 > Tip: Piš kroky konkrétně (co přesně, jak, jak dlouho). “Udělej to” nestačí.
 
-## ⚙️ Programování
+## ⚙️ Programování {#programování}
 
 ### 🏗️ Vývoj programu
 

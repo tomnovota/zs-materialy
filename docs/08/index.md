@@ -10,7 +10,7 @@
 
 ---
 
-## 🖥️ Představení počítače
+## 🖥️ Představení počítače {#představení-počítače}
 
 ### 📖 Základní pojmy
 
@@ -96,7 +96,7 @@ Periferie jsou zařízení, která **připojujeme k počítači**:
 
 ---
 
-## 💾 Kódování informace
+## 💾 Kódování informace {#kódování-informace}
 
 ### 🔢 Digitální vs. Analogové
 
@@ -148,7 +148,7 @@ Příklady:
 
 ---
 
-## 🧰 Operační systém
+## 🧰 Operační systém {#operacni-system}
 
 **Software** = aplikace/programy, které na počítači používáme.
 
@@ -304,7 +304,7 @@ https://zshovorcovicka.cz/fotogalerie/skolni-akce/
 
 ---
 
-## 📊 Práce s daty
+## 📊 Práce s daty {#práce-s-daty}
 
 ### 📈 Co jsou data?
 
@@ -464,7 +464,7 @@ VÝHODY:
 
 ---
 
-## 📊 MS Excel
+## 📊 MS Excel {#ms-excel}
 
 ### 1️⃣ Ruční vkládání obsahu
 #### 🎨 Formátování textu:

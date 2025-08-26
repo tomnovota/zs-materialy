@@ -12,7 +12,7 @@
 
 ---
 
-## 🖥️ Představení počítače
+## 🖥️ Představení počítače {#představení-počítače}
 
 ### 📖 Základní pojmy
 
@@ -98,7 +98,7 @@ Periferie jsou zařízení, která **připojujeme k počítači**:
 
 ---
 
-## 💾 Kódování informace
+## 💾 Kódování informace {#kódování-informace}
 
 ### 🔢 Digitální vs. Analogové
 
@@ -150,7 +150,7 @@ Příklady:
 
 ---
 
-## 🧰 Operační systém
+## 🧰 Operační systém {#operacni-system}
 
 **Software** = aplikace/programy, které na počítači používáme.
 
@@ -282,7 +282,7 @@ Operační systém je program, který řídí celý počítač:
 
 ---
 
-## 📊 Práce s daty
+## 📊 Práce s daty {#práce-s-daty}
 
 ### 📈 Co jsou data?
 
@@ -442,7 +442,7 @@ VÝHODY:
 
 ---
 
-## 🏢 Informační systémy
+## 🏢 Informační systémy {#informační-systémy}
 
 ### 🎯 Co je informační systém?
 
@@ -492,7 +492,7 @@ VÝHODY:
 
 ---
 
-## 🔒 Bezpečnost
+## 🔒 Bezpečnost {#bezpečnost}
 
 ### 🛡️ Soukromí na internetu
 
@@ -647,7 +647,7 @@ K heslu navíc potvrdíme naší identitu dalším způsobem.
 
 ---
 
-## 🧮 Algoritmizace
+## 🧮 Algoritmizace {#algoritmizace}
 
 ### 🎯 Co je problém?
 

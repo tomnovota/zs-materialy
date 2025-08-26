@@ -61,7 +61,9 @@ theme:
 # Plugins
 plugins:
   - search:
-      lang: en
+      lang:
+        - cs
+        - en
   - git-revision-date-localized:
       enable_creation_date: true
       type: date

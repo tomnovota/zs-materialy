@@ -11,7 +11,7 @@
 
 ---
 
-## 🖥️ Představení počítače
+## 🖥️ Představení počítače {#představení-počítače}
 
 ### 📖 Základní pojmy
 
@@ -97,7 +97,7 @@ Periferie jsou zařízení, která **připojujeme k počítači**:
 
 ---
 
-## 🧰 Operační systém
+## 🧰 Operační systém {#operacni-system}
 
 **Software** = aplikace/programy, které na počítači používáme.
 
@@ -198,7 +198,7 @@ Operační systém je program, který řídí celý počítač:
 
 ---
 
-## 🌐 Síť
+## 🌐 Síť {#sit}
 
 ### 📡 Co je síť?
 
@@ -270,7 +270,7 @@ https://zshovorcovicka.cz/fotogalerie/skolni-akce/
 
 ---
 
-## 🔒 Bezpečnost
+## 🔒 Bezpečnost {#bezpecnost}
 
 ### 🛡️ Soukromí na internetu
 
@@ -423,7 +423,7 @@ K heslu navíc potvrdíme naší identitu dalším způsobem.
     - Omezení použití, jinak porušujeme zákon.
     - Použití určují licence.
 
-## 🧮 Algoritmizace
+## 🧮 Algoritmizace {#algoritmizace}
 
 ### 🎯 Co je problém?
 
@@ -545,7 +545,7 @@ Výstup: největší číslo
 
 ---
 
-## ⚙️ Programování
+## ⚙️ Programování {#programovani}
 
 ### 💬 Programovací jazyk
 
