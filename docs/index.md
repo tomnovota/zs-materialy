@@ -1,8 +1,8 @@
 ---
-title: Učební texty
+title: Výukové texty
 ---
 
-# 📚 Učební texty
+# 📚 Výukové texty
 
 Vyberte ročník:
 
