@@ -1,15 +1,11 @@
-site_name: 📚 Informatika pro ZŠ (4.-9. ročník)
-site_description: Moderní učební texty informatiky pro základní školu v České republice
-site_author: ZŠ - Informatika
+site_name: 📚 Informatika
+site_author: Tomáš Novotný
 site_url: https://tomnovota.github.io/zs-materialy/
 
 # Repository
 repo_name: zs-materialy
 repo_url: https://github.com/tomnovota/zs-materialy
 edit_uri: edit/main/docs/
-
-# Copyright
-copyright: Copyright &copy; 2025 ZŠ Informatika
 
 # Configuration
 theme:
