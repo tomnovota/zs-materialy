@@ -1,4 +1,4 @@
-# 💻 Informatika pro ZŠ
+# 💻 Informatika
 
 Chyby, překlepy hlašte na tomas.novotny@zshovorcovicka.cz
 

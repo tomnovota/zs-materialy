@@ -109,6 +109,7 @@ markdown_extensions:
 # Page tree
 nav:
   - "📚 Učební texty":
+    - index.md
     - "4. ročník": 04/index.md
     - "5. ročník": 05/index.md  
     - "6. ročník": 06/index.md
