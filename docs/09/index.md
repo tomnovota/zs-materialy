@@ -1,579 +1,756 @@
-# 09 ročník
+# 💻 Informatika - 9. ročník
 
-## Představení počítače
+## 📋 Obsah kapitol
 
-Fyzickým částem počítače říkáme **hardware**.
-
-### Co znamená digitální zařízení
-- Digitální znamená, že všechny informace jsou uvnitř zařízení reperezentovány čísly (0 a 1)
-  - např. fotografie je mřížka s čísly reprezentující barvy
-
----
-
-### Příklady zařízení
-- stolní počítač (desktop)
-- notebook (laptop)
-- tablet
-- chytrý telefon (smartphone)
-- chytré hodinky (smartwatch)
+- [🖥️ Představení počítače](#představení-počítače)
+- [💾 Kódování informace](#kódování-informace)
+- [🧰 Operační systém](#operacni-system)
+- [🌐 Síť a Internet](#sit)
+- [🔧 Řešení technických problémů](#řešení-technických-problémů)
+- [🔒 Bezpečnost](#bezpečnost)
+- [👤 Digitální identita](#digitální-identita)
 
 ---
 
-### Složení počítače
-- počítač se skládá z několika **komponent**
+## 🖥️ Představení počítače
 
-#### Hlavní komponenty
-  - procesor (CPU)
-  - paměť (RAM)
-  - pevný disk (HDD/SSD)
-  - základní deska (motherboard)
-  - grafická karta (GPU)
+### 📖 Základní pojmy
 
-#### Ostatní části
-  - zvuková karta (sound card)
-  - síťová karta (network card)
-  - napájecí zdroj (PSU)
-  - chladič (cooler)
-  - skříň (case)
----
+> **Hardware** = fyzické části počítače (to, co můžeme "chytnout do ruky")
 
-### Periferie
-- k počítači připojujeme další elektronická zařízení, která nejsou sama počítačem, ale komunikují s ním
-- rozlišujeme vstupní a výstupní
+### 💾 Co znamená digitální zařízení
 
-#### Monitor
-- obraz
-- výstupní
+Digitální zařízení pracuje s informacemi ve formě **čísel** (0 a 1):
 
-#### Klávesnice
-- psaní vstupu
-- vstupní
-
-#### Myš
-- ovládání ukazatele na obrazovce
-- vstupní
-
-#### Skener
-- vstupní
-- skenování papíru
-
-#### Tiskárna
-- výstupní
-- tisk na papír
-- tisk z plastu
-
-#### Reproduktory
-- zvuk
-- výstupní
-
-#### Sluchátka
-- zvuk
-- výstupní
-
-#### Mikrofon
-- vstupní
-
-#### Kamera
-- obraz
-- vstupní
+- 📸 Fotografie = mřížka s čísly reprezentující barvy
+- 🎵 Hudba = sekvence čísel reprezentující zvukové vlny
+- 📝 Text = čísla podle kódovací tabulky
 
 ---
 
-### Účel
-1. máme v nich uložené informace (data)
-    - fotky z dovolené
-    - známky ve škole
+### 📱 Příklady digitálních zařízení
 
-2. řeší některé úkoly, které by lidi nikdy ručně nezvládli
-    - předpověď počasí
+| Typ zařízení     | Popis            | Použití              |
+| ---------------- | ---------------- | -------------------- |
+| 🖥️ **Desktop**    | Stolní počítač   | Práce, škola, hry    |
+| 💻 **Laptop**     | Přenosný počítač | Práce na cestách     |
+| 📱 **Tablet**     | Dotykový počítač | Čtení, zábava        |
+| 📞 **Smartphone** | Chytrý telefon   | Komunikace, aplikace |
+| ⌚ **Smartwatch** | Chytré hodinky   | Zdraví, notifikace   |
 
-3. při některých aktivitách s nimi ušetříme čas
-    - hledání informací na domácí úkol
-
-4. propojení lidí i když nejsou fyzicky u sebe
-    - telefonování si
-    - přehrávání videí
-    - odevzdání úkolu z domova
-
-5. můžeme si na nich zobrazit grafiku
-    - filmy
-    - obrázky
-    
 ---
 
-### Zásady bezpečnosti při práci s počítačem
-- pravidelně čistit od prachu a bakterií
-- fyzicky nesahat na elektrické komponenty
-  - riziko **úrazu**
-- nejíst při práci
-  - hygiena
-  - zašpinění
-- pít v blízkosti elektroniky opatrně
-  - voda si s elektřinou nerozumí
+### 🔧 Složení počítače
 
-### Kódování informace
+#### 🎯 Hlavní komponenty
 
-- "informace" jsou zakódovány do bitů (binární soustava)
-  - rozdíl mezi analogovým a digitálním zařízením
+| Komponent         | Funkce             | Příklady                |
+| ----------------- | ------------------ | ----------------------- |
+| 🧠 **CPU**         | Procesor - výpočty | Intel i5, AMD Ryzen     |
+| 💾 **RAM**         | Operační paměť     | 8GB, 16GB DDR4          |
+| 💿 **Disk**        | Úložiště dat       | SSD 256GB, HDD 1TB      |
+| 🎮 **GPU**         | Grafická karta     | NVIDIA GTX, AMD Radeon  |
+| 🔌 **Motherboard** | Základní deska     | Propojuje všechny části |
 
-***představení binární soustavy***
+#### 🛠️ Ostatní důležité části
 
-#### Datové typy
-- způsob, jakým interpretovat bity
+```
+🖥️ POČÍTAČ
+├── 🧊 Chladič
+├── 🔊 Zvuková karta
+├── 🌐 Síťová karta (WiFi + Ethernet)
+├── ⚡ PSU (napájecí zdroj)
+└── 🏠 Case (skříň)
+```
 
-**Příklady**
-1. obrázek
-- JPG, PNG, PDF, GIF
-2. text (kódování)
-- UTF-8, UNICODE
-3. čísla (kódy)
-- doplňkový, aditivní, přímý
-4. zvuk
-- mp4
-5. barvy
-- RGB
-6. soubory pro konkrétní aplikace
-- docx, ptx, xlsx
-7. program/aplikace
-- počítač tento soubor interpretuje jako instrukce a provádí je
+### 🔌 Periferie
 
-**Komprese**
-- datové typy: zip, rar, jpg
-- ztrátová/bezztrátová
-    
+Periferie jsou zařízení, která **připojujeme k počítači**:
+
+#### 📤 Vstupní zařízení (zadáváme informace)
+- ⌨️ **Klávesnice** - psaní textu
+- 🖱️ **Myš** - ovládání kurzoru  
+- 📷 **Kamera** - snímání obrazu
+- 🎤 **Mikrofon** - nahrávání zvuku
+- 🖨️ **Skener** - digitalizace papírů
+
+#### 📥 Výstupní zařízení (dostáváme informace)
+- 🖥️ **Monitor** - zobrazení obrazu
+- 🔊 **Reproduktory** - přehrávání zvuku
+- 🎧 **Sluchátka** - soukromý zvuk
+- 🖨️ **Tiskárna** - tisk na papír
+
 ---
 
-Aplikacím, které na počítači používáme říkáme **software**.
+### 🎯 Účel počítačů
 
-### Operační systém
-Operační systém je program, který ovládá celý počítač
-- říká hardwaru co má dělat
-- propojuje komponenty mezi sebou
-    - přenáší pohyb naší myši na obrazovku
-- poskytuje nám uživatelské rozhraní, přes které můžeme počítač ovládat
+| Oblast             | Příklady použití                    |
+| ------------------ | ----------------------------------- |
+| 📁 **Ukládání dat** | Fotky z dovolené, školní známky     |
+| 🔬 **Řešení úkolů** | Předpověď počasí, vědecké výpočty   |
+| ⏰ **Úspora času**  | Vyhledávání informací, automatizace |
+| 🤝 **Komunikace**   | Videohovory, zasílání zpráv         |
+| 🎨 **Zábava**       | Filmy, hry, hudba                   |
 
-#### Příklady
-- mobily: iOS, Android
-- počítače: Windows, macOS, Linux
+---
 
-#### Prvky uživatelského rozhraní
+### ⚠️ Bezpečnost při práci s počítačem
 
-##### Uživatelský účet
-- každý uživatel musí mít svůj účet, pod kterým při používání počítače přistupuje
-- abychom měli k účtu přístup, musíme se přihlásit, aby se ověřilo, že jsme oprávněni vystupovat pod naším účtem
-  - uživatelské jméno
-  - heslo
-- každý uživatel má přidělená práva
-  - omezují přístup k některým funkcím nebo souborům
+#### ✅ ANO:
+- 🧽 Pravidelně čisti od prachu a bakterií
+- 🍿 Jez až po ukončení práce
+- 💧 Dávej pozor na nápoje
 
-##### Plocha
-- první místo, kam se po přihlášení dostaneme
-- typicky tam máme umístěny často používané soubory a složky
+#### ❌ NE:
+- ⚡ **NIKDY** nesahej na elektrické komponenty
+- 🍕 Nejez přímo u počítače
+- ☔ Nevylévej tekutiny na elektroniku
 
-##### Nabídka (start)
-- výběr ze všech aplikací, které jsou na počítači nainstalovány
-- nastavení
-- vypnout počítač
-- restartovat
-    - vypnout a hned po tom zapnout
-- režim spánku
-    - sníží spotřebu počítače, ale uplně ho nevypne
-- zamknout
-    - odhlásí nás z našeho účtu a vrátí nás na přihlašovací stránku
+> **⚠️ Varování:** Voda a elektřina si nerozumějí!
 
-##### Hlavní panel
-- zobrazuje, které aplikace jsou zrovna spuštěné
-    - můžeme si tam vybrat, kterou zrovna chceme používat
-- ukazuje nám stav počítače
-    - jazyk klávesnice
-    - přístup k internetu
-    - hlasitost
-    - napájení
-        - jestli máme počítač zapojený v elektřině
-        - stav nabití baterie
-    - čas a datum
+---
 
-##### Průzkumník souborů
-- náhled do systému souborů uložených na disku (úložišti)
+## 💾 Kódování informace
 
-- každý soubor patří do nějaké **složky** ("obálka obsahující soubory")
-  - složky tvoří stromovou strukturu
-  - disk má kořenovou složku
-  - složky mohou obsahovat další složky
+### 🔢 Digitální vs. Analogové
 
-**Typy souborů**
-- každý soubor má nějaké jméno
-- jméno končí příponou, která nám říká, co za typ souboru to je
+> **Klíčový princip:** Všechny "informace" jsou v počítači zakódovány do **bitů** (0 a 1)
 
-1. uchovávající data/informace
-    - obrázek
-        - .JPG, .PNG, .PDF, .GIF
-    - text (kódování)
-        - .TXT
-    - zvuk
-        - .MP4
-    - soubory pro konkrétní aplikace
-        - .DOCX, .PTX, .XLSX
+| Typ             | Charakteristika         | Příklad            |
+| --------------- | ----------------------- | ------------------ |
+| 📻 **Analogové** | Plynulé hodnoty         | Klasické rádio     |
+| 💻 **Digitální** | Diskrétní hodnoty (0,1) | Počítačové soubory |
 
-2. spustitelné (programy, aplikace)
-      - .EXE (Windows)
+### 📁 Datové typy
 
-3. systémové
-    - uchovávají nastavení našeho operačního systému
+> **Datový typ** = způsob, jakým počítač interpretuje bity
 
-**Metadata**
-- ke každému souboru jsou navíc uloženy následující informace (metadata)
-    - datum vytvoření
-    - datum změny
-    - vlastník
-    
-**Základní operace se soubory**
-1. Složky
-   - vytvořit složku
-   - smazat složku (pozor, smaže se i celý její obsah)
-   - přesunout složku (zachová se její obsah)
+#### 🎯 Hlavní kategorie:
 
-2. Soubor
-   - vytvořit soubor
-   - smazat soubor
-   - přesunout soubor
-   - zkopírovat soubor a vložit ho do jiné složky
+| Typ dat        | Formáty              | Popis                  | Použití              |
+| -------------- | -------------------- | ---------------------- | -------------------- |
+| 🖼️ **Obrázek**  | JPG, PNG, GIF        | Digitální fotografie   | Fotky, grafika       |
+| 📝 **Text**     | UTF-8, UNICODE       | Kódované znaky         | Dokumenty, zprávy    |
+| 🔢 **Čísla**    | Přímý, doplňkový kód | Matematické hodnoty    | Výpočty              |
+| 🎵 **Zvuk**     | MP4, WAV             | Audio data             | Hudba, nahrávky      |
+| 🎨 **Barvy**    | RGB                  | Barevné hodnoty        | Displeje, tisk       |
+| 📋 **Aplikace** | DOCX, XLSX           | Specializované formáty | Kancelářské programy |
+| ⚙️ **Program**  | EXE                  | Spustitelný kód        | Software             |
 
-#### Aplikace
+#### 🌈 RGB Barevný model
 
-- operační systém poskytuje prostředí pro další programy (aplikace), které na počítači mohou běžet
+```
+🎨 RGB BARVA
+├── 🔴 R (Red): 0-255
+├── 🟢 G (Green): 0-255  
+└── 🔵 B (Blue): 0-255
 
-**Používání aplikací**
+Příklady:
+• Červená: (255, 0, 0)
+• Bílá: (255, 255, 255)
+• Černá: (0, 0, 0)
+```
 
-- aplikaci musíme mít nejdřív **nainstalovanou**
-- např. na ploše jí můžeme spustit rozkliknutím
-- typicky se nám otevře nové okno, ve kterém aplikaci používáme
-- každou aplikaci můžeme zavřít (vypne se)
-- na počítači může běžet víc aplikací najednou (multitasking)
-- můžeme si vybírat, které aplikace zrovna chceme vidět na obrazovce a používat, ostatní jsou minimalizované
+### 🗜️ Komprese dat
 
-**Základní aplikace**
-- webový prohlížeč (browser)
-    - zobrazuje nám obsah webových stránek
-- průzkumník souborů
-- nastavení
-  - obrázek na ploše
-  - jas
-  - hlasitost zvuku
+#### 📊 Typy komprese:
 
-- poznámkový blok (notepad)
-- malování
+| Typ               | Ztráta kvality | Příklady | Kdy použít         |
+| ----------------- | -------------- | -------- | ------------------ |
+| **🔄 Bezztrátová** | ❌ Žádná        | ZIP, RAR | Důležité dokumenty |
+| **⚡ Ztrátová**    | ✅ Částečná     | JPG, MP3 | Multimédia         |
 
-## Síť
-Síť je propojení více zařízení za účelem vzájemné výměny informací
+---
 
-### Účel
-- mezi dvěma uživateli (client-client)
-    - poslat zprávu kamarádovi
-    - poslat email učitelovi
+## 🧰 Operační systém
 
-- sdílený přístup k datům
-  - sdílená složka na OneDrive pro skupinovou práci
-  - sdílená složka na Google Photos s fotkami ze školního výletu
+**Software** = aplikace/programy, které na počítači používáme.
 
-- přístup na službu (client-server)
-    - podívat se na Bakaláři
-    - podívat se na počasí
-    - podívat se na video na YouTube
+### 🖥️ Co je operační systém
+Operační systém je program, který řídí celý počítač:
+- 🧩 Říká hardwaru, co má dělat
+- 🔗 Propojuje komponenty mezi sebou (např. převádí pohyb myši na pohyb kurzoru)
+- 🪟 Poskytuje uživatelské rozhraní, přes které počítač ovládáme
 
-- spojení více disků (datacentra)
-  - navýšení kapacity úložiště
+#### 📚 Příklady
+- 📱 Mobily: iOS, Android
+- 💻 Počítače: Windows, macOS, Linux
 
-- spojení výkonu více výpočetních uzlů (výpočetní clustery)
-  - zvýšení výkonu
+### 🧩 Prvky uživatelského rozhraní
 
-### Příklady
-- internet
-- bluetooth
-- sharing mezi telefony se stejným OS
+#### 👤 Uživatelský účet
+- Každý uživatel má svůj účet, pod kterým počítač používá.
+- Přístup k účtu je chráněn přihlášením:
+    - 📝 Uživatelské jméno
+    - 🔑 Heslo
 
-### Internet
+#### 🔑 Uživatelské účty a práva
 
-#### Základní vlasnosti
+> **Administrátor vs. Standardní uživatel**
 
-- propojuje celý svět
-- bez něj bychom museli každé dvě zařízení, které si chtějí vyměnit nějaké informace zvlášť
-- když získáme na zařízení přístup k internetu, můžeme se přes něj propojit s dalšími zařízeními s přístupem na internet bez ohledu na jejich polohu
+| Typ účtu       | Oprávnění                   | Rizika   |
+| -------------- | --------------------------- | -------- |
+| 👑 **Admin**    | Instalace SW, změny systému | ⚠️ Vysoká |
+| 👤 **Standard** | Běžná práce, omezené změny  | ✅ Nízká  |
 
-#### Schéma
+---
+#### 🖼️ Plocha
+- První místo, kam se po přihlášení dostaneme.
+- Často používané soubory a složky (zástupci) na dosah.
 
-- topologicky graf
-- každé dostupné zařízení má IP adresu
+#### 🪟 Nabídka (Start)
+- Přehled všech nainstalovaných aplikací a přístup do Nastavení.
+- Akce napájení:
+    - ⏻ Vypnout počítač
+    - 🔁 Restartovat (vypnout a hned znovu zapnout)
+    - 🌙 Režim spánku (sníží spotřebu, ale úplně nevypne)
+    - 🔒 Zamknout (odhlásí z účtu a zobrazí přihlašovací obrazovku)
 
-#### Připojení
+#### 🧰 Hlavní panel
+- Zobrazuje právě spuštěné aplikace (rychlé přepínání mezi nimi).
+- Ukazuje stav počítače:
+    - ⌨️ Jazyk klávesnice
+    - 🌐 Připojení k internetu
+    - 🔊 Hlasitost
+    - 🔌 Napájení / 🔋 Stav baterie
+    - 🕒 Čas a datum
 
-- naše zařízení, přes které chceme přistupovat k internetu, připojujeme přes router
-    - síťová karta - WiFi/LAN - Router - ISP - NAT - celosvětová síť
+#### 🗂️ Průzkumník souborů
+- Náhled do systému souborů uložených na disku (úložišti).
+- Soubory patří do **složek** ("obálky"), složky tvoří stromovou strukturu:
+    - Disk má kořenovou složku
+    - Složky mohou obsahovat další složky
 
-**Možnosti připojení k routeru**
-- bezdrátové:
-  - WiFi
+##### 📄 Typy souborů
+- Každý soubor má **jméno** a **příponu** (určuje typ souboru).
 
-- kabelem:
-  - LAN
+1) Uchovávající data/informace
+     - 🖼️ Obrázky: .JPG, .PNG, .PDF, .GIF
+     - 📝 Text: .TXT
+     - 🔊 Zvuk: .MP4
+     - 📦 Pro konkrétní aplikace: .DOCX, .PTX, .XLSX
 
-**Možnosti připojení domácnosti**
-- optický kabel
-- koaxiální kabel
-- Ethernet (LAN)
-- bezdrátové připojení (antény)
+2) Spustitelné (programy, aplikace)
+     - 🧪 .EXE
 
-#### Protokoly
-- protokol je způsob, jakým se postupuje při komunikaci přes internet
-- má několik vrstev, každá se stará o jiný typ komunikace
+##### 🏷️ Metadata (informace o souboru)
+- Datum vytvoření
+- Datum změny
+- Vlastník
 
-##### OSI model
-- každá vrstva přidává své vlastní informace do dat, která jsou posílána (enkapsulace)
-![alt text](image.png)
+##### 🔧 Základní operace se soubory
+1) Složky
+     - ➕ Vytvořit složku
+     - 🗑️ Smazat složku (pozor: smaže se i celý její obsah)
+     - 🚚 Přesunout složku (zachová se obsah)
 
-**Vrstvy**
-1. Síťová vrstva (jak se zařízení identifikuje v celé síti)
-  - protokol IPv4
-  - protokol IPv6
-  - router
-2. Linková vrstva
-  - komunikace sousedních zařízení
-  - protokol Ethernet
-  - MAC adresa
-  - switch
-3. Fyzická vrstva
-  - jak je reprezentována informace při přenosu
-  - opět jsou veškeré informace zakódovány do binární soustavy
-  - WiFi (bezdrátové)
-    - vduchem se šíří elektromagnetické vlny - změna fáze vlny znamená 1 nebo 0)
-    - nestabilní
-  - LAN (kabelové)
-    - bity jsou reprezentovány změnami napětí na kovovém kabelu (přechod znamená 1 nebo 0)
-    - stabilní
-  - optické kabely
-    - vysokorychlostní
-    - používá se v infrastruktuře
-4. Transportní vrstva
-   - protokol TCP
-     - zabezpečuje spolehlivý přenos dat
-     - pomalejší
-   - protokol UDP
-     - nezaručuje spolehlivý přenos dat
-     - rychlejší
-   - protokol DNS
-     - převádí doménová jména na IP adresy
+2) Soubory
+     - ➕ Vytvořit soubor
+     - 🗑️ Smazat soubor
+     - 🚚 Přesunout soubor
+     - 📋 Kopírovat a vložit do jiné složky
 
-Ještě existují další vrstvy, ve kterých se posílají další informace 
-- mohou být citlivé/osobní
-  - je třeba na to myslet, že je může v některých případech kdokoli odchytit a zneužít
-- další vrstvy mohou obsahovat metadata
-  - informace o odesílateli/příjemci
-  - časové razítko
+### 🧱 Aplikace
+- Operační systém poskytuje prostředí pro další programy (aplikace), které na počítači běží.
 
-#### Webové stránky
+#### 🕹️ Používání aplikací
+- Aplikaci musíme mít nejdříve nainstalovanou.
+- Spuštění např. kliknutím na zástupce na ploše.
+- Otevře se nové okno, ve kterém aplikaci používáme.
+- Každou aplikaci lze zavřít (vypne se).
+- Na počítači může běžet více aplikací zároveň (multitasking).
+- Vybereme, které okno chceme mít zrovna na obrazovce; ostatní jsou minimalizované.
 
-- přes internet máme přístup k webovým stránkám
-- ty se dají zobrazit přes webový prohlížeč (Google Chrome, Microsoft Edge)
+#### 🧰 Základní aplikace
+- 🌐 Webový prohlížeč (browser) – zobrazení webových stránek
+- 🗂️ Průzkumník souborů
+- ⚙️ Nastavení
+    - Obrázek na ploše
+    - Jas
+    - Hlasitost zvuku
+- 📝 Poznámkový blok (notepad)
+- 🎨 Malování
 
-##### Přístup na webovou stránku
+---
 
-- každá webová stránka má adresu (URL)
-  - např. https://zshovorcovicka.cz/fotogalerie/skolni-akce/
-  - skládá se z následujících částí:
-    - protokol (http, **https**)
-    - doména (např. zshovorcovicka.cz)
-      - doména se skládá z následujících částí:
-        - druhá úroveň (např. zshovorcovicka)
-        - první úroveň (např. cz)
-    - cesta (např. /folder/page.html)
+
+## 🌐 Síť
+
+### 🎯 Co je síť?
+
+**Síť** = propojení více zařízení za účelem **výměny informací**
+
+### 🔗 Účely sítí
+
+#### 👥 Komunikace mezi uživateli (client-client)
+- 💬 Poslat zprávu kamarádovi
+- 📧 Poslat email učitelovi
+
+#### 📂 Sdílený přístup k datům
+- 📁 OneDrive složka pro skupinový projekt
+- 📸 Google Photos s fotkami ze školního výletu
+
+#### 🖥️ Přístup ke službám (client-server)
+- 🎓 Bakaláři (školní systém)
+- 🌤️ Předpověď počasí
+- 🎬 YouTube videa
+
+#### 🏢 Datová centra
+- 💽 **Spojení disků** - navýšení kapacity
+- ⚡ **Clustering** - zvýšení výkonu
+
+#### ☁️ Cloudové služby
+
+- Aplikace a soubory nejsou uloženy přímo na našem zařízení.
+- Využíváme vzdálené servery připojené k internetu.
+- Přístup k datům je možný odkudkoli, kde je internet.
+- Typické příklady:
+    - **Microsoft 365** – online kancelářské aplikace
+    - **Netflix** – sledování filmů a seriálů
+    - **Spotify** – poslech hudby
+
+**Výhody:**
+- 📍 Dostupnost odkudkoli (stačí internet)
+- 🤝 Snadné sdílení souborů
+- 👥 Jednoduchá spolupráce s ostatními
+- 💸 Úspora prostředků (není nutný výkonný počítač)
+
+**Nevýhody:**
+- 🌐 Závislost na internetovém připojení
+- 🔒 Potenciální ztráta kontroly nad daty
+- 🏢 Závislost na poskytovateli služby
+
+### 🌍 Příklady sítí
+
+| Typ sítě        | Dosah             | Příklady              |
+| --------------- | ----------------- | --------------------- |
+| 🌐 **Internet**  | Celý svět         | Web, email            |
+| 📶 **Bluetooth** | Krátká vzdálenost | Sluchátka, myš        |
+| 📱 **Sharing**   | Mezi zařízeními   | AirDrop, Wi-Fi Direct |
+
+---
+
+### 🌍 Internet
+
+#### 🔗 Připojení k internetu
+
+```
+📡 CESTA NA INTERNET
+📱 Zařízení ──► 📡 Router ──► 🏢 ISP ──► 🌐 Internet
+```
+
+**Možnosti připojení k routeru:**
+- 📶 **WiFi** (bezdrátové)
+- 🔗 **LAN kabel** (drátové)
+
+#### 📡 Typy připojení domácnosti
+
+| Typ            | Rychlost    | Výhody                     | Nevýhody         |
+| -------------- | ----------- | -------------------------- | ---------------- |
+| 🌟 **Optika**   | až 10 Gbps  | **Velmi rychlá**, stabilní | **Dražší**       |
+| 📺 **Koaxiál**  | až 1 Gbps   | Dostupná                   | Sdílená kapacita |
+| 🔗 **Ethernet** | až 1 Gbps   | **Levná**                  | Pomalejší        |
+| 📡 **Bezdrát**  | až 500 Mbps | Flexibilní                 | **Nestabilní**   |
+
+### 🔧 OSI Model
+
+- při komunikaci přes internet se kromě samotných dat posílají ještě další informace důležité k doručení zprávy
+- existuje několik úrovní, které tyto informace organizují.
+
+> **Každá vrstva přidává své informace** (enkapsulace)
+
+```
+📦 DATA PACKET
+┌─────────────────────┐
+│ 7️⃣ Application     │ ← HTTP/HTTPS
+│ 6️⃣ Presentation    │ ← Šifrování  
+│ 5️⃣ Session         │ ← Relace
+│ 4️⃣ Transport       │ ← TCP/UDP
+│ 3️⃣ Network         │ ← IP adresy
+│ 2️⃣ Data Link       │ ← MAC adresy
+│ 1️⃣ Physical        │ ← Kabel/WiFi
+└─────────────────────┘
+```
+
+> **Tip:** Je důležité si uvědomit, že se spolu s obsahem, který posíláme po internetu posílají i další informace, které může zneužít kdokoli, kdo je při cestě odchytí.
+
+#### 🎯 Klíčové protokoly
+
+| Vrstva            | Protokol      | Účel                               | Zařízení   |
+| ----------------- | ------------- | ---------------------------------- | ---------- |
+| 🌐 **Síťová**      | **IPv4/IPv6** | Identifikace zařízení              | **Router** |
+| 🔗 **Linková**     | Ethernet      | Komunikace sousedů, **MAC adresa** | **Switch** |
+| 📡 **Fyzická**     | **WiFi/LAN**  | Přenos bitů                        | AP         |
+| 🚚 **Transportní** | TCP/UDP       | Spolehlivost vs. rychlost          | Server     |
+
+##### 🔄 TCP vs UDP
+
+| TCP                 | UDP           |
+| ------------------- | ------------- |
+| ✅ Spolehlivý přenos | ⚡ Bez garance |
+| 🐌 Pomalejší         | 🚀 Rychlejší   |
+| 📧 Email, web        | 🎮 Hry, video  |
+
+---
+
+#### 🌐 Webové stránky
+
+> **Webová stránka** = dokument dostupný přes internet pomocí **URL adresy**
+
 - v prohlížeči (typicky nahoře) je adresní řádek, kam se zadávají právě URL adresy
-- po zadání URL adresy jsme přesměrováni na danou webovou stránku
+- po zadání URL adresy jsme prohlížečem přesměrováni na danou webovou stránku.
 
-##### Obsah webové stránky
+#### 🔗 Struktura URL adresy
 
-**HTML**
-- jazyk HTML definuje značkami základní strukturu webové stránky
+```
+https://zshovorcovicka.cz/fotogalerie/skolni-akce/
+│     │                │            │
+│     └── doména        │            └── cesta
+└── protokol            └── cesta
+```
 
-**JavaScript**
-- navíc může mít webová stránka interaktivní prvky
-- ty nám umožňuje programovací jazyk JavaScript
-- **může být nebezpečný**, protože se na našem zařízení spouští kód
+**Části URL:**
+- 🔒 **Protokol:** `http://` nebo `https://` (zabezpečené)
+- 🏠 **Doména:** `zshovorcovicka.cz`
+  - Druhá úroveň: `zshovorcovicka`
+  - První úroveň: `cz`
+- 📁 **Cesta:** `/fotogalerie/skolni-akce/`
 
-##### DarkNet
-- decentralizovaná síť dostupná přes internet
-- často nelegální aktivita
+#### 🏗️ Obsah webové stránky
 
-#### Cloudové služby
-- např. Microsoft365, Netflix, Spotify
-- namísto spouštění aplikací a ukládání souborů na našem zařízení využíváme vzdálené servery a úložiště připojené k internetu
+- 🏗️ **HTML** - struktura stránky
+- 🎨 **CSS** - vzhled stránky  
+- ⚙️ **JavaScript** - interaktivní prvky
 
-**Výhody**
-- dostupnost odkudkoli
-- snadné sdílení souborů
-- snadná spolupráce s ostatními
-- úspora prostředků
+**HTML - základní struktura:**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moje školní stránka</title>
+</head>
+<body>
+    <h1>Vítejte na naší stránce!</h1>
+    <p>Toto je můj první web.</p>
+</body>
+</html>
+```
 
-**Nevýhody**
-- závislost na internetovém připojení
-- potenciální ztráta kontroly nad daty
-- závislost na poskytovateli
+**JavaScript - interaktivita:**
+```javascript
+function zobrazPozdrav() {
+    alert("Ahoj z JavaScriptu!");
+}
+```
 
-## Řešení technických problémů
+> **⚠️ Pozor:** JavaScript se spouští na tvém počítači a může být nebezpečný!
 
-### Bezpečný servis domácích zařízení
+#### 🕸️ DarkNet
 
-#### Fyzické
-1. Výměna pomalého/nefunkčního/malého disku
-2. Zvýšení kapacity RAM
-3. Výměna slabého routeru
+**DarkNet** = decentralizovaná síť webových stránek přístupná přes speciální software
 
-#### Softwarové
-1. Aktualizace operačního systému/aplikací
-2. Používání antivirového softwaru
-3. Reinstalace operačního systému
+⚠️ **Varování:** Často používaný pro nelegální aktivity!
 
-### Typické technické problémy s digitálním zařízením
-1. Pomalý výkon zařízení
-2. Zamrznutí programu
-3. Problémy s připojením k internetu
-4. Chybějící nebo poškozené soubory
+## 🔧 Řešení technických problémů
 
-## Bezpečnost
+### 🛠️ Bezpečný servis zařízení
 
-### Bezpečná práce s počítačem
-- fyzicky nesahat na elektrické komponenty
-- pravidelné čištění
-  - prach (povrch, ventilátory)
-  - mastnota (klávesnice, myš)
-  - bakterie
-- nejíst při práci na PC
-- pít v blízkosti elektroniky opatrně
+#### 🔧 Hardware opravy
 
-### Soukromí
+| Problém      | Řešení                         | Na co si dát pozor                        |
+| ------------ | ------------------------------ | ----------------------------------------- |
+| 🐌 Pomalý PC  | ➕ RAM, 🔄 SSD                   | Kompatibilita s naším hardwarem           |
+| 🔥 Přehřívání | 🧹 Čištění od prachu, 🧊 chladič | Být opatrný (křehké součástky, elektřina) |
+| 📡 Slabá WiFi | 🔄 Vyměnit starý router         | Nový router je nutné nastavit             |
 
-#### Šifrování
-K přečtení informace potřebujeme klíč
-- **šifrování** je proces, kterým se informace převede do formátu, který nelze přečíst bez klíče
-- **dešifrování** je proces, kterým se šifrovaná informace převede zpět do původního formátu
+#### 💻 Software opravy
 
-##### Příklady šifer
+```
+🔄 ÚDRŽBA PC
+├── 🆙 Aktualizace OS
+├── 🛡️ Antivirus scan
+├── 🗑️ Vyčištění disku
+├── 🔄 Defragmentace
+└── 💾 Záloha dat
+```
 
-**Caesarova šifra**
+### 🚨 Typické problémy a řešení
 
-**Transpoziční sloupcová šifra**
+#### 🐌 Pomalý výkon
+```
+DIAGNÓZA:
+1. 📊 Task Manager - high CPU/RAM?
+2. 🗑️ Disk space < 10%?
+3. 🦠 Malware scan
+4. 🔄 Restart required?
 
-#### Autentikace
-- na spoustě služeb vystupujeme pod **uživatelským účtem**
-  - zabraňujeme přístupu k naším datům neoprávněným osobám
-    - pouze my si můžeme číst vlastní emailovou schránku
-    - pouze učitel může zapisovat známky žákům
-  - každý uživatel má oddělené prostory
-    - košík v eshopu
-    - známky v Bakaláři
-    - fotky v Google Photos
-- uživatelé jsou identifikováni **uživatelským jménem**
-- proces prokázání svojí identity, **autentikace**, probíhá vyplněním hesla, které zná pouze uživatel
+ŘEŠENÍ:
+- 🗑️ Smaž nepotřebné soubory
+- ❌ Zavři nevyužité aplikace  
+- 🔄 Restartuj systém
+- ➕ Upgrade hardware
+```
 
-##### Bezpečná práce s hesly
+#### ❄️ Zamrznutý program
+```
+POSTUP:
+1. ⏰ Počkej 30 sekund
+2. 🔄 Ctrl+Alt+Del
+3. ❌ Task Manager → End task
+4. 🔄 Restart PC (krajní řešení)
+```
 
-- **nikomu nikdy nesdělujeme**
-- bezpečné heslo:
-    - více než 12 znaků
-    - heslo by nemělo mít význam
-    - diverzita v použitých znacích
-        - a-z
-        - A-Z
-        - 0-9
-        - speciální znaky (.,+-*/)
-- do důležitých účtů používáme **dvoufázové ověřování**
-  - kromě hesla se musíme prokázat dalším způsobem
-    - potvrzení na telefonu
-    - potvrzení na emailu
-    - kód, který nám přijde na naše telefonní číslo
-    - otisk prstu
-    - rozpoznání obličeje
+#### 🌐 Problémy s internetem
+```
+DIAGNOSTIKA:
+1. 💡 Router LED kontrola
+2. 🔗 Kabel kontrola  
+3. 📡 WiFi signál síla
+4. 🌐 Ping test
 
-#### Zálohování
-- pokud nám záleží na nějakých souborech, kromě našeho zařízení je dobré je mít uložené i na dalším místě
-  - cloudové úložiště (např. OneDrive, Google Drive)
-  - externí disk
+ŘEŠENÍ:
+- 🔄 Restart router (30s off)
+- 🔗 Zkus kabel místo WiFi
+- 📞 Kontakt ISP
+```
 
-#### Ochrana před útoky
-- druhy útoků
-  - prolomení přístupu k našemu účtu
-  - smazání našich souborů
-  - spouštění programů na našem zařízení bez našeho vědomí
-- druhy obrany
-  - zálohování
-  - antivirus
-  - firewall
+---
 
-#### Bezpečnost na internetu
+## 🔒 Bezpečnost
 
-- na internet má přístup kdokoli na světě
-  - kromě výhod z toho plynou i rizika
+### 🛡️ Soukromí na internetu
 
-##### Informační gramotnost
-**Důvěryhodnost zdroje**
-1. důvěryhodné
-   - velké tiskové agentury
-   - neziskové organizace
-   - uvedení původního zdroje
-2. nedůvěryhodné
-   - dezinformační média
-   - média totalitářských režimů
-    
-**Krytické přemýšlení** nad obsahem, který si čteme na internetu
+#### 🔐 Šifrování
+- **Šifrování** = převod zprávy do tajného kódu
+- **Klíč** = potřebujeme ho k dešifrování
+- **Dešifrování** = převod zpět do původní zprávy
 
-**Filter bubbles**
-- doporučovací algoritmy na sociálních sítích nás můžou udržovat v informační bublině
+#### 🏛️ Caesarova šifra
 
-##### Závislost
-- rizika spojená s nadměrným používáním
+> **Princip:** Posun každého písmena o stejný počet míst
 
-**Binge-watching**
-  - Netflix, Twitch, YouTube
+```
+📝 POSTUP:
+1. Vyber posun (např. +3)
+2. A→D, B→E, C→F...
+3. AHOJ → DKRM
 
-**Scrolling**
-- TikTok, Instagram, Facebook
+🔓 DEŠIFROVÁNÍ:
+Posun opačným směrem (-3)
+DKRM → AHOJ
+```
 
-##### Soukromí
-- citlivé informace/soubory ukládat do zabezpečených míst
-- dát si pozor co dáváme veřejně
-    - vydírání
-    - stalking
+**🎯 Praktická ukázka:**
+```
+Původní: TAJNE HESLO
+Posun +5: YFQSJ MJXQT
+```
 
-##### Komunikace s cizími lidmi
-- být opatrný při komunikaci s cizími lidmi
-  - můžou nám chtít ublížit
-    - úchylové
-    - zloději
+> **💡 Analogie:** Šifrování je jako psaní tajnou abecedou, kterou znáš jen ty a tvůj přítel.
 
-##### Autorství
-- na některá díla na internetu se může vztahovat autorský zákon
-    - omezení použití, jinak porušujeme zákon
-    - použití určují licence
+#### 👤 Uživatelský účet na službách
 
-## Digitální identita
-Tento pojem zahrnuje informace, které se v důsledku naší činnosti na internetu shromažďují a ukládají
+- Na většině služeb vystupujeme pod **uživatelským účtem**.
+    - Zabraňuje přístupu k našim datům neoprávněným osobám:
+        - 📨 Pouze my si můžeme číst vlastní emailovou schránku.
+        - 🧑‍🏫 Pouze učitel může zapisovat známky žákům.
+    - Každý uživatel má oddělené prostory:
+        - 🛒 Košík v eshopu
+        - 🎓 Známky v Bakaláři
+        - 📸 Fotky v Google Photos
 
-### Digitální stopa
-- sledování polohy zařízení
-- záznamy o pohybu na internetu
-  - historie vyhledávání
-  - historie procházení webových stránek
-- cookies
-  - webové stránky si o nás mohou ukládat nějaké informace a používat je k personalizaci obsahu a reklam napříč weby
+#### 👤 Autentikace (ověření identity)
 
-**Nesmazatelnost**
-- jednou zvěřejněné informace na internetu mohou být i po našem smazání někde jinde uložené
-- před sdílením jakéhokoli obsahu bychom si měli být vědomi jeho potenciálního dopadu
+Přihlášení k **uživatelskému účtu** se skládá z:
+- 📝 **Uživatelské jméno** (identifikace)
+- 🔑 **Heslo** (ověření)
 
-### Sociální sítě
-Platformy, kde uživatelé mohou vytvářet a sdílet obsah
+##### 🔐 Bezpečná hesla
 
-**Rizika spojená s používáním sociálních sítí**
-- ztráta soukromí
-- kyberšikana
-- dezinformace
-- závislost
+> **⚠️ ZLATÉ PRAVIDLO:** Heslo NIKDY nikomu nesděluj!
+
+**✅ Bezpečné heslo obsahuje:**
+- 📏 Více než 12 znaků
+- 🔤 Malá i velká písmena (a-z, A-Z)
+- 🔢 Čísla (0-9)
+- 🎯 Speciální znaky (.,+-*/)
+- 🚫 Nemá jasný význam
+
+**🛡️ Dvoufázové ověřování:**
+
+K heslu navíc potvrdíme naší identitu dalším způsobem.
+
+- 📱 Potvrzení na telefonu
+- 📧 Potvrzení na emailu
+- 🔢 SMS kód
+- 👆 Otisk prstu
+
+---
+
+### 💾 Zálohování
+
+> **💡 Pravidlo:** Důležité soubory měj uložené na **dvou místech**!
+
+**Možnosti zálohování:**
+- ☁️ **Cloud** (OneDrive, Google Drive)
+- 💽 **Externí disk**
+- 📱 **Jiné zařízení**
+
+---
+
+### 🛡️ Ochrana před útoky
+
+#### ⚔️ Druhy útoků:
+- 🔓 Prolomení hesla
+- 💣 Smazání souborů
+- 🤖 Spouštění nežádoucích programů
+
+#### 🛡️ Druhy obrany:
+- 💾 **Zálohování**
+- 🛡️ **Antivirus**
+- 🔥 **Firewall**
+
+---
+
+### 📚 Informační gramotnost
+
+#### ✅ Důvěryhodné zdroje:
+- 📰 Velké tiskové agentury
+- 🏛️ Neziskové organizace
+- 📄 Uvedený původní zdroj
+
+#### ❌ Nedůvěryhodné zdroje:
+- 🚫 Dezinformační weby
+- 👑 Média totalitářských režimů
+### 🧠 Kritické přemýšlení na internetu
+
+- Zamýšlej se nad obsahem, který čteš na internetu.
+- Ověřuj fakta, porovnávej různé pohledy.
+- Zvažuj, kdo a proč danou informaci zveřejnil.
+- Pozor na stránky bez uvedení autora.
+
+#### 🫧 Informační bubliny (filter bubbles)
+- Doporučovací algoritmy na sociálních sítích nás mohou udržovat v informační bublině.
+- Vidíme hlavně obsah, se kterým souhlasíme, ostatní názory se nám nemusí zobrazit.
+
+> **💡 Tip:** Vždy si ověř informace z více zdrojů!
+
+---
+
+### 📱 Rizika digitálních služeb
+
+#### 🕒 Závislost
+- Rizika spojená s nadměrným používáním digitálních služeb.
+
+- **Binge-watching:** Dlouhé sledování pořadů (Netflix, Twitch, YouTube).
+- **Scrolling:** Nepřetržité prohlížení obsahu (TikTok, Instagram, Facebook).
+
+---
+
+### 🔒 Soukromí
+
+- Citlivé informace/soubory ukládej do zabezpečených míst.
+- Dávej si pozor, co zveřejňuješ veřejně.
+    - Riziko vydírání.
+    - Riziko stalkingu.
+
+---
+
+### 💬 Komunikace s cizími lidmi
+
+- Buď opatrný při komunikaci s cizími lidmi.
+    - Někteří nám mohou chtít ublížit (úchylové, zloději).
+
+---
+
+### 📝 Autorství na internetu
+
+- Na některá díla na internetu se může vztahovat autorský zákon.
+    - Omezení použití, jinak porušujeme zákon.
+    - Použití určují licence.
+
+## 👤 Digitální identita
+
+### 👣 Digitální stopa
+
+> **Veškerá naše činnost na internetu se shromažďuje a ukládá.**
+
+#### 📊 Co se o tobě sbírá?
+
+| Typ dat           | Příklady          | Využití                |
+| ----------------- | ----------------- | ---------------------- |
+| 📍 **Poloha**      | GPS, WiFi sítě    | Mapy, reklamy          |
+| 🔍 **Vyhledávání** | Google, YouTube   | Personalizace          |
+| 🛒 **Nákupy**      | E-shopy, aplikace | Doporučení             |
+| 👥 **Sociální**    | Likes, komentáře  | Doporučovací algoritmy |
+
+#### 🍪 Cookies
+
+```
+🍪 COOKIE = malý soubor s informacemi
+┌─────────────────────────┐
+│ 🆔 ID uživatele        │
+│ 🕐 Čas návštěvy        │  
+│ 🛒 Obsah košíku        │
+│ ⚙️ Nastavení jazyka    │
+└─────────────────────────┘
+```
+
+### ⚠️ Rizika digitální identity
+
+#### 🚫 Nesmazatelnost
+
+> **Jednou na internetu, navždy na internetu**
+
+```
+❌ SMAZAL JSI POST
+      ↓
+🤖 Už ho má bot
+💾 Archivní služby  
+📸 Screenshots
+🔄 Sdílení
+```
+
+#### 😱 Kyberšikana
+
+**Formy:**
+- 💬 Nenávistné komentáře
+- 📸 Sdílení privátních fotek
+- 👥 Vyloučení ze skupin
+- 🎭 Fake profily
+
+**Jak se bránit:**
+- 🚫 Blokuj útočníky
+- 📸 Dokumentuj důkazy
+- 👨‍👩‍👧‍👦 Řekni dospělým
+- 💪 Nehraj jejich hru
+
+### 📱 Sociální sítě - bezpečnost
+
+#### ✅ Bezpečné používání
+
+| Činnost         | ✅ Bezpečné    | ❌ Rizikové      |
+| --------------- | ------------- | --------------- |
+| 📸 **Fotky**     | Veřejná místa | Domov, škola    |
+| 📍 **Poloha**    | Vypnuto       | Stálé sdílení   |
+| 👤 **Přátelé**   | Známí lidé    | Cizí profily    |
+| 💬 **Informace** | Obecné        | Adresa, telefon |
+
+#### 🎯 Doporučovací algoritmy a filter bubbles
+
+```
+SOCIÁLNÍ SÍŤ ALGORITMUS:
+👁️ Sleduje co klikáš
+    ↓
+🧠 Učí se tvoje zájmy  
+    ↓
+📊 Ukazuje podobný obsah
+    ↓
+🔄 Vytváří "bublinu"
+```
+
+> **💡 Tip:** Občas hledej různorodý obsah, abys neuváznul v bublině!
+
+---
+
+*📅 Vytvořeno pro 9. ročník ZŠ | 🔄 Aktualizováno 2025*

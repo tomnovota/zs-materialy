@@ -1,83 +1,143 @@
-site_name: Informatika
-site_description: Studijní texty
-site_author: ""
+site_name: 📚 Informatika pro ZŠ (4.-9. ročník)
+site_description: Moderní učební texty informatiky pro základní školu v České republice
+site_author: ZŠ - Informatika
 site_url: https://tomnovota.github.io/zs-materialy/
 
+# Repository
+repo_name: zs-materialy
+repo_url: https://github.com/tomnovota/zs-materialy
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 ZŠ Informatika
+
+# Configuration
 theme:
   name: material
   language: cs
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.footer
-    - navigation.tabs
-    - navigation.indexes
-    - toc.integrate
-    - content.code.copy
-    - content.action.view
-    - search.highlight
-    - search.suggest
+  
+  # Palette
   palette:
+    # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: blue
-      accent: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Přepnout na tmavý režim
+    
+    # Dark mode  
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue
-      accent: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Přepnout na světlý režim
+
+  # Features
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+
+  # Icons
   icon:
     repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
 
+# Plugins
+plugins:
+  - search:
+      lang: en
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
+# Extensions
 markdown_extensions:
+  # Python Markdown
+  - abbr
   - admonition
-  - toc:
-      permalink: true
-  - tables
-  - def_list
   - attr_list
+  - def_list
   - footnotes
   - md_in_html
-  - smarty
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.critic
   - pymdownx.keys
   - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tilde
 
-plugins:
-  - search
-  - awesome-pages
-  - glightbox
-  - git-revision-date-localized:
-      type: date
-      fallback_to_build_date: true
-      locale: cs
-  - include-markdown
-
-extra:
-  social: []
-  generator: false
-
-repo_url: https://github.com/tomnovota/zs-materialy
-repo_name: tomnovota/zs-materialy
-
+# Page tree
 nav:
-  - Úvod: index.md
-  - 4. ročník:
-    - Přehled: 04/index.md
-  - 5. ročník:
-    - Přehled: 05/index.md
-  - 6. ročník:
-    - Přehled: 06/index.md
-  - 7. ročník:
-    - Přehled: 07/index.md
-  - 8. ročník:
-    - Přehled: 08/index.md
-  - 9. ročník:
-    - Přehled: 09/index.md
+  - "🏠 Úvod":
+    - index.md
+  - "📚 Učební texty":
+    - "4. ročník": 04/index.md
+    - "5. ročník": 05/index.md  
+    - "6. ročník": 06/index.md
+    - "7. ročník": 07/index.md
+    - "8. ročník": 08/index.md
+    - "9. ročník": 09/index.md
+  - "💡 Dodatky":
+    - dodatky/about.md
+    - dodatky/changelog.md
 
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tomnovota/zs-materialy
+    - icon: fontawesome/solid/envelope
+      link: mailto:tomas.novotny@zshovorcovicka.cz
+      
+  # Analytics (optional)
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX
+
+# Custom CSS
+extra_css:
+  - stylesheets/extra.css
+
+# JavaScript  
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

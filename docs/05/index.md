@@ -1,402 +1,534 @@
-# 05 ročník
+# 💻 Informatika - 5. ročník
 
-## Představení počítače
+## 📋 Obsah kapitol
 
-Fyzickým částem počítače říkáme **hardware**.
-
-### Co znamená digitální zařízení
-- Digitální znamená, že všechny informace jsou uvnitř zařízení reperezentovány čísly (0 a 1)
-  - např. fotografie je mřížka s čísly reprezentující barvy
-
----
-
-### Příklady zařízení
-- stolní počítač (desktop)
-- notebook (laptop)
-- tablet
-- chytrý telefon (smartphone)
-- chytré hodinky (smartwatch)
+- [🖥️ Představení počítače](#predstaveni-pocitace)
+- [💾 Kódování informace](#kódování-informace)
+- [🧰 Operační systém](#operacni-system)
+- [🌐 Síť](#sit)
+- [📊 Práce s daty](#prace-s-daty)
+- [🏢 Informační systémy](#informacni-systemy)
 
 ---
 
-### Složení počítače
-- počítač se skládá z několika **komponent**
-  - procesor (CPU)
-  - paměť (RAM)
-  - pevný disk (HDD/SSD)
----
+## 🖥️ Představení počítače
 
-### Periferie
-- k počítači připojujeme další elektronická zařízení, která nejsou sama počítačem, ale komunikují s ním
-- rozlišujeme vstupní a výstupní
+### 📖 Základní pojmy
 
-#### Monitor
-- obraz
-- výstupní
+> **Hardware** = fyzické části počítače (to, co můžeme "chytnout do ruky")
 
-#### Klávesnice
-- psaní vstupu
-- vstupní
+### 💾 Co znamená digitální zařízení
 
-#### Myš
-- ovládání ukazatele na obrazovce
-- vstupní
+Digitální zařízení pracuje s informacemi ve formě **čísel** (0 a 1):
 
-#### Skener
-- vstupní
-- skenování papíru
-
-#### Tiskárna
-- výstupní
-- tisk na papír
-- tisk z plastu
-
-#### Reproduktory
-- zvuk
-- výstupní
-
-#### Sluchátka
-- zvuk
-- výstupní
-
-#### Mikrofon
-- vstupní
-
-#### Kamera
-- obraz
-- vstupní
+- 📸 Fotografie = mřížka s čísly reprezentující barvy
+- 🎵 Hudba = sekvence čísel reprezentující zvukové vlny
+- 📝 Text = čísla podle kódovací tabulky
 
 ---
 
-### Účel
-1. máme v nich uložené informace (data)
-	- fotky z dovolené
-	- známky ve škole
+### 📱 Příklady digitálních zařízení
 
-2. řeší některé úkoly, které by lidi nikdy ručně nezvládli
-	- předpověď počasí
+| Typ zařízení     | Popis            | Použití              |
+| ---------------- | ---------------- | -------------------- |
+| 🖥️ **Desktop**    | Stolní počítač   | Práce, škola, hry    |
+| 💻 **Laptop**     | Přenosný počítač | Práce na cestách     |
+| 📱 **Tablet**     | Dotykový počítač | Čtení, zábava        |
+| 📞 **Smartphone** | Chytrý telefon   | Komunikace, aplikace |
+| ⌚ **Smartwatch** | Chytré hodinky   | Zdraví, notifikace   |
 
-3. při některých aktivitách s nimi ušetříme čas
-	- hledání informací na domácí úkol
-
-4. propojení lidí i když nejsou fyzicky u sebe
-	- telefonování si
-	- přehrávání videí
-	- odevzdání úkolu z domova
-
-5. můžeme si na nich zobrazit grafiku
-	- filmy
-	- obrázky
-	
 ---
 
-### Zásady bezpečnosti při práci s počítačem
-- pravidelně čistit od prachu a bakterií
-- fyzicky nesahat na elektrické komponenty
-  - riziko **úrazu**
-- nejíst při práci
-  - hygiena
-  - zašpinění
-- pít v blízkosti elektroniky opatrně
-  - voda si s elektřinou nerozumí
+### 🔧 Složení počítače
 
-### Kódování informace
+Každý počítač se skládá z několik klíčových **komponent**:
 
-- "informace" jsou zakódovány do bitů (binární soustava)
-  - rozdíl mezi analogovým a digitálním zařízením
+```
+🖥️ POČÍTAČ
+├── 🧠 CPU (Procesor) - "výpočetní jednotka"
+├── 💾 RAM (Paměť) - "krátkodobá paměť pro procesor"  
+└── 💿 HDD/SSD (Disk) - "dlouhodobé úložiště dat"
+```
 
-***představení binární soustavy***
+### 🔌 Periferie
 
-#### Datové typy
-- způsob, jakým interpretovat bity
+Periferie jsou zařízení, která **připojujeme k počítači**:
 
-**Příklady**
-1. obrázek
-- JPG, PNG, PDF, GIF
-2. text (kódování)
-- UTF-8, UNICODE
-3. čísla (kódy)
-- doplňkový, aditivní, přímý
-4. zvuk
-- mp4
-5. barvy
-- RGB
-6. soubory pro konkrétní aplikace
-- docx, ptx, xlsx
-7. program/aplikace
-- počítač tento soubor interpretuje jako instrukce a provádí je
+#### 📤 Vstupní zařízení (zadáváme informace)
+- ⌨️ **Klávesnice** - psaní textu
+- 🖱️ **Myš** - ovládání kurzoru  
+- 📷 **Kamera** - snímání obrazu
+- 🎤 **Mikrofon** - nahrávání zvuku
+- 🖨️ **Skener** - digitalizace papírů
 
-**Komprese**
-- datové typy: zip, rar, jpg
-- ztrátová/bezztrátová
-	
+#### 📥 Výstupní zařízení (dostáváme informace)
+- 🖥️ **Monitor** - zobrazení obrazu
+- 🔊 **Reproduktory** - přehrávání zvuku
+- 🎧 **Sluchátka** - soukromý zvuk
+- 🖨️ **Tiskárna** - tisk na papír
+
 ---
 
-Aplikacím, které na počítači používáme říkáme **software**.
+### 🎯 Účel počítačů
 
-### Operační systém
-Operační systém je program, který ovládá celý počítač
-- říká hardwaru co má dělat
-- propojuje komponenty mezi sebou
-  	- přenáší pohyb naší myši na obrazovku
-- poskytuje nám uživatelské rozhraní, přes které můžeme počítač ovládat
+| Oblast             | Příklady použití                    |
+| ------------------ | ----------------------------------- |
+| 📁 **Ukládání dat** | Fotky z dovolené, školní známky     |
+| 🔬 **Řešení úkolů** | Předpověď počasí, vědecké výpočty   |
+| ⏰ **Úspora času**  | Vyhledávání informací, automatizace |
+| 🤝 **Komunikace**   | Videohovory, zasílání zpráv         |
+| 🎨 **Zábava**       | Filmy, hry, hudba                   |
 
-#### Příklady
-- mobily: iOS, Android
-- počítače: Windows, macOS, Linux
+---
 
-#### Prvky uživatelského rozhraní
+### ⚠️ Bezpečnost při práci s počítačem
 
-##### Uživatelský účet
-- každý uživatel musí mít svůj účet, pod kterým při používání počítače přistupuje
-- abychom měli k účtu přístup, musíme se přihlásit, aby se ověřilo, že jsme oprávněni vystupovat pod naším účtem
-  - uživatelské jméno
-  - heslo
+#### ✅ ANO:
+- 🧽 Pravidelně čisti od prachu a bakterií
+- 🍿 Jez až po ukončení práce
+- 💧 Dávej pozor na nápoje
 
-##### Plocha
-- první místo, kam se po přihlášení dostaneme
-- typicky tam máme umístěny často používané soubory a složky
+#### ❌ NE:
+- ⚡ **NIKDY** nesahej na elektrické komponenty
+- 🍕 Nejez přímo u počítače
+- ☔ Nevylévej tekutiny na elektroniku
 
-##### Nabídka (start)
-- výběr ze všech aplikací, které jsou na počítači nainstalovány
-- nastavení
-- vypnout počítač
-- restartovat
-	- vypnout a hned po tom zapnout
-- režim spánku
-	- sníží spotřebu počítače, ale uplně ho nevypne
-- zamknout
-	- odhlásí nás z našeho účtu a vrátí nás na přihlašovací stránku
+> **⚠️ Varování:** Voda a elektřina si nerozumějí!
 
-##### Hlavní panel
-- zobrazuje, které aplikace jsou zrovna spuštěné
-	- můžeme si tam vybrat, kterou zrovna chceme používat
-- ukazuje nám stav počítače
-	- jazyk klávesnice
-	- přístup k internetu
-	- hlasitost
-	- napájení
-		- jestli máme počítač zapojený v elektřině
-		- stav nabití baterie
-	- čas a datum
+---
 
-##### Průzkumník souborů
-- náhled do systému souborů uložených na disku (úložišti)
+## 💾 Kódování informace
 
-- každý soubor patří do nějaké **složky** ("obálka obsahující soubory")
-  - složky tvoří stromovou strukturu
-  - disk má kořenovou složku
-  - složky mohou obsahovat další složky
+### 🔢 Digitální vs. Analogové
 
-**Typy souborů**
-- každý soubor má nějaké jméno
-- jméno končí příponou, která nám říká, co za typ souboru to je
+> **Klíčový princip:** Všechny "informace" jsou v počítači zakódovány do **bitů** (0 a 1)
 
-1. uchovávající data/informace
-    - obrázek
-        - .JPG, .PNG, .PDF, .GIF
-    - text (kódování)
-        - .TXT
-    - zvuk
-        - .MP4
-    - soubory pro konkrétní aplikace
-        - .DOCX, .PTX, .XLSX
+| Typ             | Charakteristika         | Příklad            |
+| --------------- | ----------------------- | ------------------ |
+| 📻 **Analogové** | Plynulé hodnoty         | Klasické rádio     |
+| 💻 **Digitální** | Diskrétní hodnoty (0,1) | Počítačové soubory |
 
-2. spustitelné (programy, aplikace)
-      - .EXE
+### 📁 Datové typy
 
-**Metadata**
-- ke každému souboru jsou navíc uloženy následující informace (metadata)
-	- datum vytvoření
-	- datum změny
-	- vlastník
-	
-**Základní operace se soubory**
-1. Složky
-   - vytvořit složku
-   - smazat složku (pozor, smaže se i celý její obsah)
-   - přesunout složku (zachová se její obsah)
+> **Datový typ** = způsob, jakým počítač interpretuje bity
 
-2. Soubor
-   - vytvořit soubor
-   - smazat soubor
-   - přesunout soubor
-   - zkopírovat soubor a vložit ho do jiné složky
+#### 🎯 Hlavní kategorie:
 
-#### Aplikace
+| Typ dat        | Formáty              | Popis                  | Použití              |
+| -------------- | -------------------- | ---------------------- | -------------------- |
+| 🖼️ **Obrázek**  | JPG, PNG, GIF        | Digitální fotografie   | Fotky, grafika       |
+| 📝 **Text**     | UTF-8, UNICODE       | Kódované znaky         | Dokumenty, zprávy    |
+| 🔢 **Čísla**    | Přímý, doplňkový kód | Matematické hodnoty    | Výpočty              |
+| 🎵 **Zvuk**     | MP4, WAV             | Audio data             | Hudba, nahrávky      |
+| 🎨 **Barvy**    | RGB                  | Barevné hodnoty        | Displeje, tisk       |
+| 📋 **Aplikace** | DOCX, XLSX           | Specializované formáty | Kancelářské programy |
+| ⚙️ **Program**  | EXE                  | Spustitelný kód        | Software             |
 
-- operační systém poskytuje prostředí pro další programy (aplikace), které na počítači mohou běžet
+### 🗜️ Komprese dat
 
-**Používání aplikací**
+#### 📊 Typy komprese:
 
-- aplikaci musíme mít nejdřív **nainstalovanou**
-- např. na ploše jí můžeme spustit rozkliknutím
-- typicky se nám otevře nové okno, ve kterém aplikaci používáme
-- každou aplikaci můžeme zavřít (vypne se)
-- na počítači může běžet víc aplikací najednou (multitasking)
-- můžeme si vybírat, které aplikace zrovna chceme vidět na obrazovce a používat, ostatní jsou minimalizované
+| Typ               | Ztráta kvality | Příklady | Kdy použít         |
+| ----------------- | -------------- | -------- | ------------------ |
+| **🔄 Bezztrátová** | ❌ Žádná        | ZIP, RAR | Důležité dokumenty |
+| **⚡ Ztrátová**    | ✅ Částečná     | JPG, MP3 | Multimédia         |
 
-**Základní aplikace**
-- webový prohlížeč (browser)
-	- zobrazuje nám obsah webových stránek
-- průzkumník souborů
-- nastavení
-  - obrázek na ploše
-  - jas
-  - hlasitost zvuku
+---
 
-- poznámkový blok (notepad)
-- malování
+## 🧰 Operační systém
 
-## Síť
-Síť je propojení více zařízení za účelem vzájemné výměny informací
+**Software** = aplikace/programy, které na počítači používáme.
 
-### Účel
-- mezi dvěma uživateli (client-client)
-	- poslat zprávu kamarádovi
-	- poslat email učitelovi
+### 🖥️ Co je operační systém
+Operační systém je program, který řídí celý počítač:
+- 🧩 Říká hardwaru, co má dělat
+- 🔗 Propojuje komponenty mezi sebou (např. převádí pohyb myši na pohyb kurzoru)
+- 🪟 Poskytuje uživatelské rozhraní, přes které počítač ovládáme
 
-- sdílený přístup k datům
-  - sdílená složka na OneDrive pro skupinovou práci
-  - sdílená složka na Google Photos s fotkami ze školního výletu
+#### 📚 Příklady
+- 📱 Mobily: iOS, Android
+- 💻 Počítače: Windows, macOS, Linux
 
-- přístup na službu (client-server)
-	- podívat se na Bakaláři
-	- podívat se na počasí
-	- podívat se na video na YouTube
+### 🧩 Prvky uživatelského rozhraní
 
-### Příklady
-- internet
-- bluetooth
-- sharing mezi telefony se stejným OS
+#### 👤 Uživatelský účet
+- Každý uživatel má svůj účet, pod kterým počítač používá.
+- Přístup k účtu je chráněn přihlášením:
+    - 📝 Uživatelské jméno
+    - 🔑 Heslo
 
-## Práce s daty
-Pokud objekty a informace okolo nás strukturovaně sesbíráme a uložíme, bavíme se o datech
+#### 🖼️ Plocha
+- První místo, kam se po přihlášení dostaneme.
+- Často používané soubory a složky (zástupci) na dosah.
 
-### Příklady datasetů
-***příklady datasetů***
+#### 🪟 Nabídka (Start)
+- Přehled všech nainstalovaných aplikací a přístup do Nastavení.
+- Akce napájení:
+    - ⏻ Vypnout počítač
+    - 🔁 Restartovat (vypnout a hned znovu zapnout)
+    - 🌙 Režim spánku (sníží spotřebu, ale úplně nevypne)
+    - 🔒 Zamknout (odhlásí z účtu a zobrazí přihlašovací obrazovku)
 
-- tabulky
-- grafy
-- textové soubory
-- obrázky
-- zvukové nahrávky
+#### 🧰 Hlavní panel
+- Zobrazuje právě spuštěné aplikace (rychlé přepínání mezi nimi).
+- Ukazuje stav počítače:
+    - ⌨️ Jazyk klávesnice
+    - 🌐 Připojení k internetu
+    - 🔊 Hlasitost
+    - 🔌 Napájení / 🔋 Stav baterie
+    - 🕒 Čas a datum
 
-### Sběr dat
-1. pozorování okolí
-2. dotazníkové šetření
-3. sběr dat z elektrických zařízení
+#### 🗂️ Průzkumník souborů
+- Náhled do systému souborů uložených na disku (úložišti).
+- Soubory patří do **složek** ("obálky"), složky tvoří stromovou strukturu:
+    - Disk má kořenovou složku
+    - Složky mohou obsahovat další složky
 
-### Vyhledávání dat
+##### 📄 Typy souborů
+- Každý soubor má **jméno** a **příponu** (určuje typ souboru).
 
-Při použití jakýchkoli zdrojů je důležité:
-  - ověřit jejich důvěryhodnost
-  - dát si pozor na licence
+1) Uchovávající data/informace
+     - 🖼️ Obrázky: .JPG, .PNG, .PDF, .GIF
+     - 📝 Text: .TXT
+     - 🔊 Zvuk: .MP4
+     - 📦 Pro konkrétní aplikace: .DOCX, .PTX, .XLSX
 
-#### Příklady důvěryhodných zdrojů
-***příklady zdrojů, kde brát data***
- - eurostat
- - ČSÚ
- - instituce
- - open data
+2) Spustitelné (programy, aplikace)
+     - 🧪 .EXE
 
-### Ukládání dat
-Databáze je místo, kam ukládáme strukturovaná data v nějakém formátu
+##### 🏷️ Metadata (informace o souboru)
+- Datum vytvoření
+- Datum změny
+- Vlastník
 
-#### Příklady formátů databází
-- tabulka
-- json
+##### 🔧 Základní operace se soubory
+1) Složky
+     - ➕ Vytvořit složku
+     - 🗑️ Smazat složku (pozor: smaže se i celý její obsah)
+     - 🚚 Přesunout složku (zachová se obsah)
 
-#### Příklady datových typů jednotlivých sloupců
-- čísla
-  - celá
-  - s plovoucí čárkou
-- text
-- barvy
-- tvary
-- obrázek
-- zvuk
+2) Soubory
+     - ➕ Vytvořit soubor
+     - 🗑️ Smazat soubor
+     - 🚚 Přesunout soubor
+     - 📋 Kopírovat a vložit do jiné složky
 
-#### Cloudové úložiště
-- např. OneDrive
-- dostupné přes internet
-	- je nutné se přihlásit a mít udělený přístup k souborům
-- disky jsou umístěny v nějakém velkém datacentru
-- spolehlivější než mít data u sebe
+### 🧱 Aplikace
+- Operační systém poskytuje prostředí pro další programy (aplikace), které na počítači běží.
 
-### Problémy v datech
-- je třeba je vyřešit před vyhodnocením
+#### 🕹️ Používání aplikací
+- Aplikaci musíme mít nejdříve nainstalovanou.
+- Spuštění např. kliknutím na zástupce na ploše.
+- Otevře se nové okno, ve kterém aplikaci používáme.
+- Každou aplikaci lze zavřít (vypne se).
+- Na počítači může běžet více aplikací zároveň (multitasking).
+- Vybereme, které okno chceme mít zrovna na obrazovce; ostatní jsou minimalizované.
 
-1. chybějící
-2. falešná pozorování
-3. chybné hodnoty
-4. nekonzistence
+#### 🧰 Základní aplikace
+- 🌐 Webový prohlížeč (browser) – zobrazení webových stránek
+- 🗂️ Průzkumník souborů
+- ⚙️ Nastavení
+    - Obrázek na ploše
+    - Jas
+    - Hlasitost zvuku
+- 📝 Poznámkový blok (notepad)
+- 🎨 Malování
 
-### Vyhodnocení dat
+---
 
-#### Statistické charakteristiky
-- rozsah
-- průměr
-- medián
-- rozptyl
+## 🌐 Síť
 
-#### Grafy
-- histogram
-- koláčový graf
-- sloupcový graf
+### 🎯 Co je síť?
 
-### Závěry z dat
-- typicky máme nějakou hypotézu, kterou data buď mohou podporovat nebo ne
+**Síť** = propojení více zařízení za účelem **výměny informací**
 
-***příklady chyb v interpretaci dat***
-	
-### Zpracování dat
-- strojové učení
-	
-## Informační systémy
-- informační systém typicky pomáhá institucím
+### 🔗 Účely sítí
 
-### Příklady informačních systémů
-  - škola
-    - Bakaláři
-  - firma
-    - Účetnictví
-  - instituce
-    - MojeVZP
-  - stát
-    - eDalnice
-  - nemocnice
-    - interní systém v nemocnici
+#### 👥 Komunikace mezi uživateli (client-client)
+- 💬 Poslat zprávu kamarádovi
+- 📧 Poslat email učitelovi
 
-### Účel
-- správa dat
-  - bezpečnější než v papírové podobě
-  - rychlejší přístup k informacím
-- stav organizace je v digitální podobě
-  - snazší sdílení informací
+#### 📂 Sdílený přístup k datům
+- 📁 OneDrive složka pro skupinový projekt
+- 📸 Google Photos s fotkami ze školního výletu
 
-### Technologie
+#### 🖥️ Přístup ke službám (client-server)
+- 🎓 Bakaláři (školní systém)
+- 🌤️ Předpověď počasí
+- 🎬 YouTube videa
 
-#### Desktopové aplikace
-- nutná kompatibilita s PC+OS
-- není nutný přístup k internetu
+### 🌍 Příklady sítí
 
-#### Webové aplikace
-- spuštěné v prohlížeči
-- flexibilnější
-- nutný přístup k internetu
+| Typ sítě        | Dosah             | Příklady              |
+| --------------- | ----------------- | --------------------- |
+| 🌐 **Internet**  | Celý svět         | Web, email            |
+| 📶 **Bluetooth** | Krátká vzdálenost | Sluchátka, myš        |
+| 📱 **Sharing**   | Mezi zařízeními   | AirDrop, Wi-Fi Direct |
 
-### Schéma
-- schéma je zjednodušený model reality
+---
 
-#### Forma
-- ohodnocený orientovaný graf
-  - vzdálenosti měst
+## 📊 Práce s daty
 
-- entity-relation model
-  - role ve škole
+### 📈 Co jsou data?
 
-- Vennovy diagramy
-  - vlastnosti žáků ve třídě
+**Data** = strukturovaně sesbírané a uložené **informace** z okolního světa
 
-	
+### 📋 Typy datasetů
+
+| Formát                | Popis                 | Příklad použití          |
+| --------------------- | --------------------- | ------------------------ |
+| 📊 **Tabulky**         | Řádky a sloupce       | Seznam žáků s známkami   |
+| 📈 **Grafy**           | Vizuální reprezentace | Vývoj teploty během roku |
+| 📄 **Textové soubory** | Nestrukturovaný text  | Kniha, článek            |
+| 🖼️ **Obrázky**         | Vizuální data         | Fotografie z výletu      |
+| 🎵 **Audio**           | Zvukové nahrávky      | Rozhovor, přednáška      |
+
+### 🔍 Sběr dat
+
+#### 📝 Hlavní metody:
+
+1. **👁️ Pozorování okolí**
+   - Měření teploty ve třídě
+   - Počítání vozidel na silnici
+   - Pozorování chování zvířat
+
+2. **📋 Dotazníkové šetření**
+   - Online formulář
+   - Rozhovor
+   - Anketa
+
+3. **📱 Elektronická zařízení**
+   - GPS senzory
+   - Teplotní čidla
+   - Mobilní aplikace
+
+### 🔍 Vyhledávání dat
+
+> **⚠️ Pozor:** Vždy ověř důvěryhodnost zdrojů a jednat v souladu s licencí!
+
+#### ✅ Důvěryhodné zdroje:
+
+| Zdroj           | Typ                 | Příklad             |
+| --------------- | ------------------- | ------------------- |
+| 🏛️ **Eurostat**  | Evropské statistiky | Ekonomické údaje EU |
+| 📊 **ČSÚ**       | České statistiky    | Demografické údaje  |
+| 🏢 **Instituce** | Oficiální data      | Ministerstva, úřady |
+| 🌐 **Open Data** | Otevřená data       | Veřejné databáze    |
+
+### 💾 Ukládání dat
+
+#### 🗄️ Databáze formáty:
+
+```
+📊 TABULKA (CSV format)
+┌─────────┬─────┬──────────┐
+│ Jméno   │ Věk │ Třída    │
+├─────────┼─────┼──────────┤
+│ Anna    │ 11  │ 5.A      │
+│ Tomáš   │ 12  │ 5.B      │
+│ Marie   │ 11  │ 5.A      │
+└─────────┴─────┴──────────┘
+```
+
+```json
+📋 JSON format
+{
+  "student": {
+    "jmeno": "Anna",
+    "vek": 11,
+    "trida": "5.A"
+  }
+}
+```
+
+#### 🎯 Datové typy sloupců:
+
+| Typ              | Popis   | Příklad           |
+| ---------------- | ------- | ----------------- |
+| 🔢 **Celé číslo** | Integer | 42, -15, 0        |
+| 🔢 **Desetinné**  | Float   | 3.14, -2.5        |
+| 📝 **Text**       | String  | "Ahoj světe"      |
+| 🎨 **Barva**      | RGB/Hex | #FF0000 (červená) |
+| 🎵 **Zvuk**       | Audio   | MP3 soubor        |
+
+#### ☁️ Cloudové úložiště
+
+```
+☁️ CLOUD STORAGE
+├── 📁 OneDrive (Microsoft)
+├── 📁 Google Drive
+├── 📁 iCloud (Apple)
+└── 📁 Dropbox
+
+VÝHODY:
+✅ Dostupné z internetu
+✅ Automatické zálohy
+✅ Sdílení s ostatními
+✅ Spolehlivější než lokální disk
+```
+
+### ⚠️ Problémy v datech
+
+> **Před analýzou je třeba data "vyčistit"!**
+
+| Problém              | Příklad            | Řešení            |
+| -------------------- | ------------------ | ----------------- |
+| 🕳️ **Chybějící**      | Prázdné buňky      | Doplnit/odstranit |
+| 🤥 **Falešná**        | Věk 150 let        | Ověřit zdroj      |
+| ❌ **Chybné**         | "Pondělí" v čísle  | Opravit formát    |
+| 🔄 **Nekonzistentní** | "Praha" vs "PRAHA" | Sjednotit         |
+
+### 📈 Vyhodnocení dat
+
+#### 📊 Statistické charakteristiky:
+
+| Charakteristika | Význam             | Vzorec           | Příklad pro data: '5, 10, 15' |
+| --------------- | ------------------ | ---------------- | ----------------------------- |
+| 📏 **Rozsah**    | Rozpětí hodnot     | Max - Min        | 15 - 5 = 10                   |
+| ➗ **Průměr**    | Typická hodnota    | Součet ÷ Počet   | (5+10+15) ÷ 3 = 10            |
+| 📊 **Medián**    | Prostřední hodnota | Střed seřazených | 5, **10**, 15                 |
+| 📏 **Rozptyl**   | Variabilita        | -                | Jak moc se hodnoty liší       |
+
+#### 📈 Typy grafů:
+
+📊 SLOUPCOVÝ GRAF
+
+🥧 KOLÁČOVÝ GRAF
+
+📈 HISTOGRAM
+
+### 🧠 Závěry z dat
+
+> **Hypotéza** = náš odhad, který chceme daty ověřit
+
+**Příklad:**
+- **Hypotéza:** "Žáci více čtou v zimě než v létě"
+- **Data:** Počet vypůjčených knih z knihovny
+- **Závěr:** Data hypotézu *vyvrací* nebo *nevyvrací*
+
+#### 🚫 Časté chyby v interpretaci:
+- Zaměňování korelace za kauzalitu
+- Ignorování jiných faktorů
+- Malý vzorek dat
+- Subjektivní výběr dat
+
+### 🤖 Zpracování dat
+
+> **Strojové učení** = počítače se z dat naučí vzory
+
+**Příklady:**
+- 📧 Rozpoznání spamu v emailech
+- 🎵 Doporučení hudby na Spotify
+- 🛒 Návrhy produktů v eshopu
+
+---
+
+## 🏢 Informační systémy
+
+### 🎯 Co je informační systém?
+
+**Informační systém (IS)** = digitální řešení, které pomáhá **institucím spravovat data**
+
+> **💡 Analogie:** IS je jako digitální sekretářka, která si pamatuje vše o organizaci, rychle najde potřebné informace a jednoduše provede námi požadované operace.
+
+### 🏛️ Příklady podle institucí:
+
+| Instituce       | Informační systém     | Účel                       |
+| --------------- | --------------------- | -------------------------- |
+| 🎓 **Škola**     | Bakaláři, Edupage     | Známky, rozvrh, komunikace |
+| 🏢 **Firma**     | Účetní systém         | Finance, faktury, mzdy     |
+| 🏥 **Nemocnice** | Zdravotní IS          | Pacienti, diagnózy, léčba  |
+| 🏛️ **Stát**      | eDalnice, eGovernment | Služby pro občany          |
+
+### 🎯 Účel informačních systémů
+
+#### ✅ Výhody digitalizace:
+
+| Oblast           | 📄 Papírová forma       | 💻 Digitální forma   |
+| ---------------- | ---------------------- | ------------------- |
+| **🔒 Bezpečnost** | Zničitelné ohněm/vodou | Záloha v cloudu     |
+| **⚡ Rychlost**   | Ruční vyhledávání      | Okamžité hledání    |
+| **📤 Sdílení**    | Fyzické kopírování     | Automatické sdílení |
+| **📊 Analýza**    | Ruční počítání         | Automatické grafy   |
+| **💰 Úspora**     | Papír, tisk, místo     | Virtuální úložiště  |
+
+### 💻 Technologie informačních systémů
+
+#### 🖥️ Desktopové aplikace
+
+```
+💻 DESKTOP APP
+├── ✅ Výhody:
+│   ├── Rychlá odezva
+│   ├── Funguje bez internetu
+│   └── Plná kontrola dat
+└── ❌ Nevýhody:
+    ├── Nutná instalace na každý PC
+    └── Těžší sdílení dat
+```
+
+#### 🌐 Webové aplikace
+
+```
+🌐 WEB APP
+├── ✅ Výhody:
+│   ├── Přístup odkudkoli
+│   ├── Automatické aktualizace
+│   └── Snadné sdílení
+└── ❌ Nevýhody:
+    ├── Nutný internet
+    └── Závislost na serveru
+```
+
+### 👥 Uživatelé a práva
+
+> **Každý uživatel má jiná oprávnění**
+
+| Role          | Oprávnění    | Příklad        |
+| ------------- | ------------ | -------------- |
+| 👨‍🎓 **Student** | Čtení známek | Vidí jen své   |
+| 👩‍🏫 **Učitel**  | Zápis známek | Jen svým žákům |
+| 👨‍💼 **Ředitel** | Vše          | Celá škola     |
+
+---
+
+### 📊 Schémata - modely reality
+
+> **Schéma** = zjednodušený model, který pomáhá pochopit složitou realitu
+
+#### 🗺️ Formy schémat:
+
+**📍 Ohodnocený orientovaný graf**
+```
+Praha ──50km──► Kutná Hora
+  │                 │
+ 80km              30km
+  ▼                 ▼
+Brno  ◄──60km──  Jihlava
+```
+
+**👥 Entity-relation model**
+```
+  ŽÁCI ──studují──► PŘEDMĚTY
+    │                  │
+dostávají           vyučuje
+    ▼                  ▼
+ ZNÁMKY ◄──zadává── UČITELÉ
+```
+
+**⭕ Vennovy diagramy**
+```
+    Sportovci
+   ┌─────────────┐
+   │      ┌──────┼──────┐
+   │      │      │      │ Hudebníci
+   │      │  5   │      │
+   │  10  │ žáků │  8   │
+   │      │      │      │
+   │      └──────┼──────┘
+   └─────────────┘
+```
+
+---
+
+*📅 Vytvořeno pro 5. ročník ZŠ | 🔄 Aktualizováno 2025*

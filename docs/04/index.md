@@ -1,460 +1,590 @@
-# 04 ročník
+# 💻 Informatika - 4. ročník
 
-## Představení počítače
+## 📋 Obsah kapitol
 
-Fyzickým částem počítače říkáme **hardware**.
-
-### Co znamená digitální zařízení
-- Digitální znamená, že všechny informace jsou uvnitř zařízení reperezentovány čísly (0 a 1)
-  - např. fotografie je mřížka s čísly reprezentující barvy
-
----
-
-### Příklady zařízení
-- stolní počítač (desktop)
-- notebook (laptop)
-- tablet
-- chytrý telefon (smartphone)
-- chytré hodinky (smartwatch)
+- [🖥️ Představení počítače](#představení-počítače)
+- [🧰 Operační systém](#operacni-system)
+- [🌐 Síť a Internet](#sit)
+- [🔒 Bezpečnost](#bezpecnost)
+- [🧮 Algoritmizace](#algoritmizace)
+- [⚙️ Programování](#programovani)
 
 ---
 
-### Složení počítače
-- počítač se skládá z několika **komponent**
-  - procesor (CPU)
-  - paměť (RAM)
-  - pevný disk (HDD/SSD)
----
+## 🖥️ Představení počítače
 
-### Periferie
-- k počítači připojujeme další elektronická zařízení, která nejsou sama počítačem, ale komunikují s ním
-- rozlišujeme vstupní a výstupní
+### 📖 Základní pojmy
 
-#### Monitor
-- obraz
-- výstupní
+> **Hardware** = fyzické části počítače (to, co můžeme "chytnout do ruky")
 
-#### Klávesnice
-- psaní vstupu
-- vstupní
+### 💾 Co znamená digitální zařízení
 
-#### Myš
-- ovládání ukazatele na obrazovce
-- vstupní
+Digitální zařízení pracuje s informacemi ve formě **čísel** (0 a 1):
 
-#### Skener
-- vstupní
-- skenování papíru
-
-#### Tiskárna
-- výstupní
-- tisk na papír
-- tisk z plastu
-
-#### Reproduktory
-- zvuk
-- výstupní
-
-#### Sluchátka
-- zvuk
-- výstupní
-
-#### Mikrofon
-- vstupní
-
-#### Kamera
-- obraz
-- vstupní
+- 📸 Fotografie = mřížka s čísly reprezentující barvy
+- 🎵 Hudba = sekvence čísel reprezentující zvukové vlny
+- 📝 Text = čísla podle kódovací tabulky
 
 ---
 
-### Účel
-1. máme v nich uložené informace (data)
-	- fotky z dovolené
-	- známky ve škole
+### 📱 Příklady digitálních zařízení
 
-2. řeší některé úkoly, které by lidi nikdy ručně nezvládli
-	- předpověď počasí
+| Typ zařízení     | Popis            | Použití              |
+| ---------------- | ---------------- | -------------------- |
+| 🖥️ **Desktop**    | Stolní počítač   | Práce, škola, hry    |
+| 💻 **Laptop**     | Přenosný počítač | Práce na cestách     |
+| 📱 **Tablet**     | Dotykový počítač | Čtení, zábava        |
+| 📞 **Smartphone** | Chytrý telefon   | Komunikace, aplikace |
+| ⌚ **Smartwatch** | Chytré hodinky   | Zdraví, notifikace   |
 
-3. při některých aktivitách s nimi ušetříme čas
-	- hledání informací na domácí úkol
-
-4. propojení lidí i když nejsou fyzicky u sebe
-	- telefonování si
-	- přehrávání videí
-	- odevzdání úkolu z domova
-
-5. můžeme si na nich zobrazit grafiku
-	- filmy
-	- obrázky
-	
 ---
 
-### Zásady bezpečnosti při práci s počítačem
-- pravidelně čistit od prachu a bakterií
-- fyzicky nesahat na elektrické komponenty
-  - riziko **úrazu**
-- nejíst při práci
-  - hygiena
-  - zašpinění
-- pít v blízkosti elektroniky opatrně
-  - voda si s elektřinou nerozumí
-	
+### 🔧 Složení počítače
+
+Každý počítač se skládá z několik klíčových **komponent**:
+
+```
+🖥️ POČÍTAČ
+├── 🧠 CPU (Procesor) - "výpočetní jednotka"
+├── 💾 RAM (Paměť) - "krátkodobá paměť pro procesor"  
+└── 💿 HDD/SSD (Disk) - "dlouhodobé úložiště dat"
+```
+
+### 🔌 Periferie
+
+Periferie jsou zařízení, která **připojujeme k počítači**:
+
+#### 📤 Vstupní zařízení (zadáváme informace)
+- ⌨️ **Klávesnice** - psaní textu
+- 🖱️ **Myš** - ovládání kurzoru  
+- 📷 **Kamera** - snímání obrazu
+- 🎤 **Mikrofon** - nahrávání zvuku
+- 🖨️ **Skener** - digitalizace papírů
+
+#### 📥 Výstupní zařízení (dostáváme informace)
+- 🖥️ **Monitor** - zobrazení obrazu
+- 🔊 **Reproduktory** - přehrávání zvuku
+- 🎧 **Sluchátka** - soukromý zvuk
+- 🖨️ **Tiskárna** - tisk na papír
+
 ---
 
-Aplikacím, které na počítači používáme říkáme **software**.
+### 🎯 Účel počítačů
 
-### Operační systém
-Operační systém je program, který ovládá celý počítač
-- říká hardwaru co má dělat
-- propojuje komponenty mezi sebou
-  	- přenáší pohyb naší myši na obrazovku
-- poskytuje nám uživatelské rozhraní, přes které můžeme počítač ovládat
+| Oblast             | Příklady použití                    |
+| ------------------ | ----------------------------------- |
+| 📁 **Ukládání dat** | Fotky z dovolené, školní známky     |
+| 🔬 **Řešení úkolů** | Předpověď počasí, vědecké výpočty   |
+| ⏰ **Úspora času**  | Vyhledávání informací, automatizace |
+| 🤝 **Komunikace**   | Videohovory, zasílání zpráv         |
+| 🎨 **Zábava**       | Filmy, hry, hudba                   |
 
-#### Příklady
-- mobily: iOS, Android
-- počítače: Windows, macOS, Linux
+---
 
-#### Prvky uživatelského rozhraní
+### ⚠️ Bezpečnost při práci s počítačem
 
-##### Uživatelský účet
-- každý uživatel musí mít svůj účet, pod kterým při používání počítače přistupuje
-- abychom měli k účtu přístup, musíme se přihlásit, aby se ověřilo, že jsme oprávněni vystupovat pod naším účtem
-  - uživatelské jméno
-  - heslo
+#### ✅ ANO:
+- 🧽 Pravidelně čisti od prachu a bakterií
+- 🍿 Jez až po ukončení práce
+- 💧 Dávej pozor na nápoje
 
-##### Plocha
-- první místo, kam se po přihlášení dostaneme
-- typicky tam máme umístěny často používané soubory a složky
+#### ❌ NE:
+- ⚡ **NIKDY** nesahej na elektrické komponenty
+- 🍕 Nejez přímo u počítače
+- ☔ Nevylévej tekutiny na elektroniku
 
-##### Nabídka (start)
-- výběr ze všech aplikací, které jsou na počítači nainstalovány
-- nastavení
-- vypnout počítač
-- restartovat
-	- vypnout a hned po tom zapnout
-- režim spánku
-	- sníží spotřebu počítače, ale uplně ho nevypne
-- zamknout
-	- odhlásí nás z našeho účtu a vrátí nás na přihlašovací stránku
+> **⚠️ Varování:** Voda a elektřina si nerozumějí!
 
-##### Hlavní panel
-- zobrazuje, které aplikace jsou zrovna spuštěné
-	- můžeme si tam vybrat, kterou zrovna chceme používat
-- ukazuje nám stav počítače
-	- jazyk klávesnice
-	- přístup k internetu
-	- hlasitost
-	- napájení
-		- jestli máme počítač zapojený v elektřině
-		- stav nabití baterie
-	- čas a datum
+---
 
-##### Průzkumník souborů
-- náhled do systému souborů uložených na disku (úložišti)
+## 🧰 Operační systém
 
-- každý soubor patří do nějaké **složky** ("obálka obsahující soubory")
-  - složky tvoří stromovou strukturu
-  - disk má kořenovou složku
-  - složky mohou obsahovat další složky
+**Software** = aplikace/programy, které na počítači používáme.
 
-**Typy souborů**
-- každý soubor má nějaké jméno
-- jméno končí příponou, která nám říká, co za typ souboru to je
+### 🖥️ Co je operační systém
+Operační systém je program, který řídí celý počítač:
+- 🧩 Říká hardwaru, co má dělat
+- 🔗 Propojuje komponenty mezi sebou (např. převádí pohyb myši na pohyb kurzoru)
+- 🪟 Poskytuje uživatelské rozhraní, přes které počítač ovládáme
 
-1. uchovávající data/informace
-    - obrázek
-        - .JPG, .PNG, .PDF, .GIF
-    - text (kódování)
-        - .TXT
-    - zvuk
-        - .MP4
-    - soubory pro konkrétní aplikace
-        - .DOCX, .PTX, .XLSX
+#### 📚 Příklady
+- 📱 Mobily: iOS, Android
+- 💻 Počítače: Windows, macOS, Linux
 
-2. spustitelné (programy, aplikace)
-      - .EXE
+### 🧩 Prvky uživatelského rozhraní
 
-**Metadata**
-- ke každému souboru jsou navíc uloženy následující informace (metadata)
-	- datum vytvoření
-	- datum změny
-	- vlastník
-	
-**Základní operace se soubory**
-1. Složky
-   - vytvořit složku
-   - smazat složku (pozor, smaže se i celý její obsah)
-   - přesunout složku (zachová se její obsah)
+#### 👤 Uživatelský účet
+- Každý uživatel má svůj účet, pod kterým počítač používá.
+- Přístup k účtu je chráněn přihlášením:
+    - 📝 Uživatelské jméno
+    - 🔑 Heslo
 
-2. Soubor
-   - vytvořit soubor
-   - smazat soubor
-   - přesunout soubor
-   - zkopírovat soubor a vložit ho do jiné složky
+#### 🖼️ Plocha
+- První místo, kam se po přihlášení dostaneme.
+- Často používané soubory a složky (zástupci) na dosah.
 
-#### Aplikace
+#### 🪟 Nabídka (Start)
+- Přehled všech nainstalovaných aplikací a přístup do Nastavení.
+- Akce napájení:
+    - ⏻ Vypnout počítač
+    - 🔁 Restartovat (vypnout a hned znovu zapnout)
+    - 🌙 Režim spánku (sníží spotřebu, ale úplně nevypne)
+    - 🔒 Zamknout (odhlásí z účtu a zobrazí přihlašovací obrazovku)
 
-- operační systém poskytuje prostředí pro další programy (aplikace), které na počítači mohou běžet
+#### 🧰 Hlavní panel
+- Zobrazuje právě spuštěné aplikace (rychlé přepínání mezi nimi).
+- Ukazuje stav počítače:
+    - ⌨️ Jazyk klávesnice
+    - 🌐 Připojení k internetu
+    - 🔊 Hlasitost
+    - 🔌 Napájení / 🔋 Stav baterie
+    - 🕒 Čas a datum
 
-**Používání aplikací**
+#### 🗂️ Průzkumník souborů
+- Náhled do systému souborů uložených na disku (úložišti).
+- Soubory patří do **složek** ("obálky"), složky tvoří stromovou strukturu:
+    - Disk má kořenovou složku
+    - Složky mohou obsahovat další složky
 
-- aplikaci musíme mít nejdřív **nainstalovanou**
-- např. na ploše jí můžeme spustit rozkliknutím
-- typicky se nám otevře nové okno, ve kterém aplikaci používáme
-- každou aplikaci můžeme zavřít (vypne se)
-- na počítači může běžet víc aplikací najednou (multitasking)
-- můžeme si vybírat, které aplikace zrovna chceme vidět na obrazovce a používat, ostatní jsou minimalizované
+##### 📄 Typy souborů
+- Každý soubor má **jméno** a **příponu** (určuje typ souboru).
 
-**Základní aplikace**
-- webový prohlížeč (browser)
-	- zobrazuje nám obsah webových stránek
-- průzkumník souborů
-- nastavení
-  - obrázek na ploše
-  - jas
-  - hlasitost zvuku
+1) Uchovávající data/informace
+     - 🖼️ Obrázky: .JPG, .PNG, .PDF, .GIF
+     - 📝 Text: .TXT
+     - 🔊 Zvuk: .MP4
+     - 📦 Pro konkrétní aplikace: .DOCX, .PTX, .XLSX
 
-- poznámkový blok (notepad)
-- malování
+2) Spustitelné (programy, aplikace)
+     - 🧪 .EXE
 
-## Síť
-Síť je propojení více zařízení za účelem vzájemné výměny informací
+##### 🏷️ Metadata (informace o souboru)
+- Datum vytvoření
+- Datum změny
+- Vlastník
 
-### Účel
-- mezi dvěma uživateli (client-client)
-	- poslat zprávu kamarádovi
-	- poslat email učitelovi
+##### 🔧 Základní operace se soubory
+1) Složky
+     - ➕ Vytvořit složku
+     - 🗑️ Smazat složku (pozor: smaže se i celý její obsah)
+     - 🚚 Přesunout složku (zachová se obsah)
 
-- sdílený přístup k datům
-  - sdílená složka na OneDrive pro skupinovou práci
-  - sdílená složka na Google Photos s fotkami ze školního výletu
+2) Soubory
+     - ➕ Vytvořit soubor
+     - 🗑️ Smazat soubor
+     - 🚚 Přesunout soubor
+     - 📋 Kopírovat a vložit do jiné složky
 
-- přístup na službu (client-server)
-	- podívat se na Bakaláři
-	- podívat se na počasí
-	- podívat se na video na YouTube
+### 🧱 Aplikace
+- Operační systém poskytuje prostředí pro další programy (aplikace), které na počítači běží.
 
-### Příklady
-- internet
-- bluetooth
-- sharing mezi telefony se stejným OS
+#### 🕹️ Používání aplikací
+- Aplikaci musíme mít nejdříve nainstalovanou.
+- Spuštění např. kliknutím na zástupce na ploše.
+- Otevře se nové okno, ve kterém aplikaci používáme.
+- Každou aplikaci lze zavřít (vypne se).
+- Na počítači může běžet více aplikací zároveň (multitasking).
+- Vybereme, které okno chceme mít zrovna na obrazovce; ostatní jsou minimalizované.
 
-### Internet
+#### 🧰 Základní aplikace
+- 🌐 Webový prohlížeč (browser) – zobrazení webových stránek
+- 🗂️ Průzkumník souborů
+- ⚙️ Nastavení
+    - Obrázek na ploše
+    - Jas
+    - Hlasitost zvuku
+- 📝 Poznámkový blok (notepad)
+- 🎨 Malování
 
-#### Základní vlasnosti
+---
 
-- propojuje celý svět
-- bez něj bychom museli každé dvě zařízení, které si chtějí vyměnit nějaké informace zvlášť
-- když získáme na zařízení přístup k internetu, můžeme se přes něj propojit s dalšími zařízeními s přístupem na internet bez ohledu na jejich polohu
+## 🌐 Síť
 
-#### Schéma
+### 📡 Co je síť?
 
-- topologicky graf
-- každé dostupné zařízení má IP adresu
+**Síť** = propojení více zařízení za účelem **výměny informací**
 
-#### Připojení
+### 🎯 Účely sítí
 
-- naše zařízení, přes které chceme přistupovat k internetu, připojujeme přes router
-- možnosti připojení k routeru:
-	- bezdrátové:
-		- WiFi
+#### 👥 Komunikace mezi uživateli (client-client)
+- 💬 Poslat zprávu kamarádovi
+- 📧 Poslat email učitelovi
 
-	- kabelem:
-		- LAN
+#### 📂 Sdílený přístup k datům
+- 📁 OneDrive složka pro skupinový projekt
+- 📸 Google Photos s fotkami ze školního výletu
 
-#### Webové stránky
+#### 🖥️ Přístup ke službám (client-server)
+- 🎓 Bakaláři (školní systém)
+- 🌤️ Předpověď počasí
+- 🎬 YouTube videa
 
-- přes internet máme přístup k webovým stránkám
-- ty se dají zobrazit přes webový prohlížeč (Google Chrome, Microsoft Edge)
+---
 
-##### Přístup na webovou stránku
+### 🌍 Internet
 
-- každá webová stránka má adresu (URL)
-  - např. https://zshovorcovicka.cz/fotogalerie/skolni-akce/
-  - skládá se z následujících částí:
-    - protokol (http, https)
-    - doména (např. zshovorcovicka.cz)
-      - doména se skládá z následujících částí:
-        - druhá úroveň (např. zshovorcovicka)
-        - první úroveň (např. cz)
-    - cesta (např. /folder/page.html)
+> **Internet** = největší síť světa, propojuje všechna zařízení na planetě
+
+#### ✨ Vlastnosti internetu:
+- 🌎 Propojuje celý svět
+- 📍 Každé zařízení má **IP adresu** (jako poštovní adresa)
+- 🔗 Každá dvě zařízení připojená k internetu spolu mohou komunikovat.
+
+#### 🔌 Jak se připojit?
+
+```
+📱 Tvoje zařízení
+    ↓
+📡 Router (domácí)
+    ↓
+🌐 Internet
+    ↓
+🖥️ Cílové zařízení
+```
+
+**Typy připojení k routeru:**
+- 📶 **WiFi** (bezdrátově)
+- 🔗 **LAN kabel** (kabelem)
+
+---
+
+### 🌐 Webové stránky
+
+Každá webová stránka má svou **URL adresu**:
+
+```
+https://zshovorcovicka.cz/fotogalerie/skolni-akce/
+│     │                │            │
+│     └── doména        │            └── cesta
+└── protokol            └── cesta
+```
+
+| Část URL     | Popis             | Příklad                     |
+| ------------ | ----------------- | --------------------------- |
+| **Protokol** | Způsob komunikace | `https://`                  |
+| **Doména**   | Adresa webu       | `zshovorcovicka.cz`         |
+| **Cesta**    | Konkrétní stránka | `/fotogalerie/skolni-akce/` |
+
 - v prohlížeči (typicky nahoře) je adresní řádek, kam se zadávají právě URL adresy
-- po zadání URL adresy jsme přesměrováni na danou webovou stránku
+- po zadání URL adresy jsme prohlížečem přesměrováni na danou webovou stránku.
 
-## Bezpečnost
+---
 
-### Bezpečná práce s počítačem
-- fyzicky nesahat na elektrické komponenty
-- pravidelné čištění
-  - prach (povrch, ventilátory)
-  - mastnota (klávesnice, myš)
-  - bakterie
-- nejíst při práci na PC
-- pít v blízkosti elektroniky opatrně
+## 🔒 Bezpečnost
 
-### Soukromí
+### 🛡️ Soukromí na internetu
 
-#### Šifrování
-- k přečtení informace potřebujeme klíč
-- šifrování je proces, kterým se informace převede do formátu, který nelze přečíst bez klíče
-- dešifrování je proces, kterým se šifrovaná informace převede zpět do původního formátu
+#### 🔐 Šifrování
+- **Šifrování** = převod zprávy do tajného kódu
+- **Klíč** = potřebujeme ho k dešifrování
+- **Dešifrování** = převod zpět do původní zprávy
 
-#### Autentikace
-- na spoustě služeb vystupujeme pod **uživatelským účtem**
-  - zabraňujeme přístupu k naším datům neoprávněným osobám
-    - pouze my si můžeme číst vlastní emailovou schránku
-    - pouze učitel může zapisovat známky žákům
-  - každý uživatel má oddělené prostory
-    - košík v eshopu
-    - známky v Bakaláři
-    - fotky v Google Photos
-- uživatelé jsou identifikováni **uživatelským jménem**
-- proces prokázání svojí identity, **autentikace**, probíhá vyplněním hesla, které zná pouze uživatel
+#### 🏛️ Caesarova šifra
 
-##### Bezpečná práce s hesly
+> **Princip:** Posun každého písmena o stejný počet míst
 
-- **nikomu nikdy nesdělujeme**
-- bezpečné heslo:
-	- více než 12 znaků
-	- heslo by nemělo mít význam
-	- diverzita v použitých znacích
-    	- a-z
-    	- A-Z
-    	- 0-9
-    	- speciální znaky (.,+-*/)
-- do důležitých účtů používáme **dvoufázové ověřování**
-  - kromě hesla se musíme prokázat dalším způsobem
-    - potvrzení na telefonu
-    - potvrzení na emailu
-    - kód, který nám přijde na naše telefonní číslo
-    - otisk prstu
-    - rozpoznání obličeje
+```
+📝 POSTUP:
+1. Vyber posun (např. +3)
+2. A→D, B→E, C→F...
+3. AHOJ → DKRM
 
-#### Zálohování
-- pokud nám záleží na nějakých souborech, kromě našeho zařízení je dobré je mít uložené i na dalším místě
-  - cloudové úložiště (např. OneDrive, Google Drive)
-  - externí disk
+🔓 DEŠIFROVÁNÍ:
+Posun opačným směrem (-3)
+DKRM → AHOJ
+```
 
-#### Ochrana před útoky
-- druhy útoků
-  - prolomení přístupu k našemu účtu
-  - smazání našich souborů
-  - spouštění programů na našem zařízení bez našeho vědomí
-- druhy obrany
-  - zálohování
-  - antivirus
-  - firewall
+**🎯 Praktická ukázka:**
+```
+Původní: TAJNE HESLO
+Posun +5: YFQSJ MJXQT
+```
 
-#### Bezpečnost na internetu
+> **💡 Analogie:** Šifrování je jako psaní tajnou abecedou, kterou znáš jen ty a tvůj přítel.
 
-- na internet má přístup kdokoli na světě
-  - kromě výhod z toho plynou i rizika
+#### 👤 Uživatelský účet na službách
 
-##### Informační gramotnost
-**Důvěryhodnost zdroje**
-1. důvěryhodné
-   - velké tiskové agentury
-   - neziskové organizace
-   - uvedení původního zdroje
-2. nedůvěryhodné
-   - dezinformační média
-   - média totalitářských režimů
-	
-**Krytické přemýšlení** nad obsahem, který si čteme na internetu
+- Na většině služeb vystupujeme pod **uživatelským účtem**.
+    - Zabraňuje přístupu k našim datům neoprávněným osobám:
+        - 📨 Pouze my si můžeme číst vlastní emailovou schránku.
+        - 🧑‍🏫 Pouze učitel může zapisovat známky žákům.
+    - Každý uživatel má oddělené prostory:
+        - 🛒 Košík v eshopu
+        - 🎓 Známky v Bakaláři
+        - 📸 Fotky v Google Photos
 
-**Filter bubbles**
-- doporučovací algoritmy na sociálních sítích nás můžou udržovat v informační bublině
+#### 👤 Autentikace (ověření identity)
 
-##### Závislost
-- rizika spojená s nadměrným používáním
+Přihlášení k **uživatelskému účtu** se skládá z:
+- 📝 **Uživatelské jméno** (identifikace)
+- 🔑 **Heslo** (ověření)
 
-**Binge-watching**
-  - Netflix, Twitch, YouTube
+##### 🔐 Bezpečná hesla
 
-**Scrolling**
-- TikTok, Instagram, Facebook
+> **⚠️ ZLATÉ PRAVIDLO:** Heslo NIKDY nikomu nesděluj!
 
-##### Soukromí
-- citlivé informace/soubory ukládat do zabezpečených míst
-- dát si pozor co dáváme veřejně
-	- vydírání
-	- stalking
+**✅ Bezpečné heslo obsahuje:**
+- 📏 Více než 12 znaků
+- 🔤 Malá i velká písmena (a-z, A-Z)
+- 🔢 Čísla (0-9)
+- 🎯 Speciální znaky (.,+-*/)
+- 🚫 Nemá jasný význam
 
-##### Komunikace s cizími lidmi
-- být opatrný při komunikaci s cizími lidmi
-  - můžou nám chtít ublížit
-    - úchylové
-    - zloději
+**🛡️ Dvoufázové ověřování:**
 
-##### Autorství
-- na některá díla na internetu se může vztahovat autorský zákon
-    - omezení použití, jinak porušujeme zákon
-    - použití určují licence
+K heslu navíc potvrdíme naší identitu dalším způsobem.
 
-## Algoritmizace
-- pomocí počítače můžeme řešit naše problémy
-- typický problém se skládá z:
-	- vstupy
-	- popis/zadání
-	- výstup (řešení)
+- 📱 Potvrzení na telefonu
+- 📧 Potvrzení na emailu
+- 🔢 SMS kód
+- 👆 Otisk prstu
 
-- postup, kterým získáme řešení problému se nazývá **algoritmus**
-  - podobný funkci v matematice
+---
 
-### Struktura algoritmu
+### 💾 Zálohování
 
-#### Definice možných vstupů
-- definiční obor
-- formát
-	
-#### Postup
-- jak pro konkrétní vstup získat požadovaný výstup
-- máme omezené instrukce/operace, které můžeme použít
+> **💡 Pravidlo:** Důležité soubory měj uložené na **dvou místech**!
 
-### Příklady algoritmů
-***příklady nějakých symbolických algoritmů***
+**Možnosti zálohování:**
+- ☁️ **Cloud** (OneDrive, Google Drive)
+- 💽 **Externí disk**
+- 📱 **Jiné zařízení**
 
-### Úlohy
-***úlohy na samostatnou přípravu algoritmu pro problém***
-***opakované použití části postupu pro jiný problém (podprogram)***
+---
 
-## Programování
-**Programovací jazyk** je prostředek, kterým můžeme počítači předat instrukce
-- programovací jazyk jsou instrukce, které jsou blíže lidské řeči než operace, se kterými pracuje počítač
-- napsaný program se poté přeloží do instrukcí ("řeči") počítače
+### 🛡️ Ochrana před útoky
 
-### Části programovacího jazyka
-- programovací jazyk má pevně daná pravidla, která **musí být přesně dodržována** (jinak program nebude fungovat)
+#### ⚔️ Druhy útoků:
+- 🔓 Prolomení hesla
+- 💣 Smazání souborů
+- 🤖 Spouštění nežádoucích programů
 
-#### Proměnné
-- datové typy:
-- bool
-- int
-- double
-- string
-- pole 
+#### 🛡️ Druhy obrany:
+- 💾 **Zálohování**
+- 🛡️ **Antivirus**
+- 🔥 **Firewall**
 
-#### Výrazy + operátory
+---
 
-***příklady výrazů***
+### 📚 Informační gramotnost
 
-#### Podmínky (if-else)
+#### ✅ Důvěryhodné zdroje:
+- 📰 Velké tiskové agentury
+- 🏛️ Neziskové organizace
+- 📄 Uvedený původní zdroj
 
-***příklady podmínek***
+#### ❌ Nedůvěryhodné zdroje:
+- 🚫 Dezinformační weby
+- 👑 Média totalitářských režimů
+### 🧠 Kritické přemýšlení na internetu
 
-#### Cykly (for, while)
-- provádění stejné operace několikrát po sobě
+- Zamýšlej se nad obsahem, který čteš na internetu.
+- Ověřuj fakta, porovnávej různé pohledy.
+- Zvažuj, kdo a proč danou informaci zveřejnil.
+- Pozor na stránky bez uvedení autora.
 
-***příklady cyklů***
+#### 🫧 Informační bubliny (filter bubbles)
+- Doporučovací algoritmy na sociálních sítích nás mohou udržovat v informační bublině.
+- Vidíme hlavně obsah, se kterým souhlasíme, ostatní názory se nám nemusí zobrazit.
 
-#### Funkce (podprogram)
-- nahrazení opakujících se vzorů/částí kódu
-- logické členění kódu
+> **💡 Tip:** Vždy si ověř informace z více zdrojů!
 
-***příklady kódu s funkcemi***
+---
 
-#### Vývoj programu
+### 📱 Rizika digitálních služeb
 
-***experimentování v blokově-orientovaném jazyce***
+#### 🕒 Závislost
+- Rizika spojená s nadměrným používáním digitálních služeb.
 
+- **Binge-watching:** Dlouhé sledování pořadů (Netflix, Twitch, YouTube).
+- **Scrolling:** Nepřetržité prohlížení obsahu (TikTok, Instagram, Facebook).
+
+---
+
+### 🔒 Soukromí
+
+- Citlivé informace/soubory ukládej do zabezpečených míst.
+- Dávej si pozor, co zveřejňuješ veřejně.
+    - Riziko vydírání.
+    - Riziko stalkingu.
+
+---
+
+### 💬 Komunikace s cizími lidmi
+
+- Buď opatrný při komunikaci s cizími lidmi.
+    - Někteří nám mohou chtít ublížit (úchylové, zloději).
+
+---
+
+### 📝 Autorství na internetu
+
+- Na některá díla na internetu se může vztahovat autorský zákon.
+    - Omezení použití, jinak porušujeme zákon.
+    - Použití určují licence.
+
+## 🧮 Algoritmizace
+
+### 🎯 Co je problém?
+
+Každý **problém** má:
+- 📥 **Vstup** (co máme)
+- 📋 **Zadání** (co chceme vyřešit)  
+- 📤 **Řešení** (co chceme získat)
+
+### 🔄 Co je algoritmus?
+
+**Algoritmus** = postup, jak vyřešit problém
+
+> 💡 Algoritmus je jako recept na vaření – přesný návod krok za krokem.
+
+### 📝 Struktura algoritmu:
+
+1. 📥 Definice vstupů (co potřebujeme)
+2. ⚙️ Postup (jak to udělat)
+3. 📤 Výstup (co dostaneme)
+
+---
+
+### 🧭 Symboly, se kterými budeme pracovat
+- ▶️ START – začátek
+- ➡️ KROK – udělej akci
+- ❓ KDYŽ/JINAK – podmínka
+- 🔁 OPAKUJ – opakování (cyklus)
+- 🛑 STOP – konec
+
+---
+
+### 🧪 Příklady algoritmů
+
+#### 1) 🫖 Připrav čaj (kombinace podmínky a čekání)
+Vstupy: konvice, voda, hrnek, čajový sáček
+Výstup: hrnek čaje
+```
+▶️ START
+➡️ Naplň konvici vodou
+➡️ Zapni konvici
+❓ KDYŽ voda vře → POKRAČUJ, JINAK čekej
+➡️ Dej sáček do hrnku
+➡️ Nalij horkou vodu do hrnku
+🔁 OPAKUJ 3 minuty: čekej
+➡️ Vyjmi sáček
+🛑 STOP
+```
+
+#### 2) 👣 Počítej 1 až 10 (cyklus)
+Vstup: číslo 1 jako začátek, číslo 10 jako konec
+Výstup: vypsaná čísla 1…10
+```
+▶️ START
+➡️ i = 1
+🔁 DOKUD i ≤ 10:
+    ➡️ vypiš i
+    ➡️ i = i + 1
+🛑 STOP
+```
+
+#### 3) 🚦 Bezpečný přechod přes silnici (podmínka)
+Vstupy: semafor (barva), přechod
+Výstup: bezpečně přejdu
+```
+▶️ START
+❓ KDYŽ je na semaforu ZELENÁ → jdi
+JINAK → čekej
+🛑 STOP
+```
+
+#### 4) 🔢 Najdi největší ze tří čísel A, B, C (porovnávání)
+Vstup: tři čísla A, B, C
+Výstup: největší číslo
+```
+▶️ START
+➡️ max = A
+❓ KDYŽ B > max → max = B
+❓ KDYŽ C > max → max = C
+➡️ vypiš max
+🛑 STOP
+```
+
+---
+
+### 🧩 Úlohy
+
+#### A) Samostatné úlohy – napiš algoritmus (vstup, postup, výstup)
+1) 🥪 Sendvič s máslem a šunkou  
+   - Přidej podmínku: KDYŽ nůž není čistý, umyj ho.
+2) 🎒 Příprava aktovky na zítřek  
+   - Použij cyklus: Pro KAŽDÝ předmět z rozvrhu přidej sešit a učebnici.
+3) 🧼 Čištění zubů  
+   - Napiš přesné kroky, aby to zvládl “robot” (žádné vynechané kroky).
+4) 🧹 Úklid stolu po svačině  
+   - Přidej podmínku: KDYŽ je drobek → setři ho, JINAK pokračuj.
+
+#### B) Úlohy s podprogramem (opakované použití části postupu)
+- Vytvoř podprogram: UMÝJ_RUCE
+  ```
+  PODPROGRAM UMÝJ_RUCE:
+    ➡️ Otoč kohoutek
+    ➡️ Namoč ruce
+    ➡️ Naneste mýdlo
+    ➡️ Tři ruce 20 s
+    ➡️ Opláchni
+    ➡️ Osuš
+  ```
+
+- Použij ho v těchto algoritmech:
+  1) 🧁 Příprava svačiny (nejdřív UMÝJ_RUCE, pak připrav jídlo)
+  2) 🎨 Malování temperami (UMÝJ_RUCE před a po malování)
+
+- Vytvoř podprogram: PŘIDEJ_PŘEDMĚT_DO_AKTOVKY(předmět)  
+  Použij ho pro všechny předměty v rozvrhu.
+
+> Tip: Piš kroky konkrétně (co přesně, jak, jak dlouho). “Udělej to” nestačí.
+
+
+
+---
+
+## ⚙️ Programování
+
+### 💬 Programovací jazyk
+
+**Programovací jazyk** = způsob, jak "mluvit" s počítačem
+
+> Počítač rozumí jen 0 a 1, programovací jazyk překládá naše instrukce do "řeči" počítače.
+
+### 🧱 Základní prvky programu:
+
+#### 📦 Proměnné (ukládání dat)
+- `bool` - pravda/nepravda
+- `int` - celá čísla  
+- `double` - desetinná čísla
+- `string` - text
+- `pole` - seznam hodnot
+
+#### 🔧 Operátory a výrazy
+- `+, -, *, /` - matematické operace
+- `=` - přiřazení hodnoty
+- `==` - porovnání
+
+#### 🔀 Podmínky (if-else)
+```
+KDYŽ (podmínka) POTOM
+    udělej něco
+JINAK  
+    udělej něco jiného
+```
+
+#### 🔄 Cykly (opakování)
+```
+OPAKUJ 10×:
+    udělej něco
+```
+
+#### 📋 Funkce (podprogramy)
+- Nahrazují opakující se kód
+- Dělí program na logické části
+
+---
+
+*📅 Vytvořeno pro 4. ročník ZŠ | 🔄 Aktualizováno 2025*
