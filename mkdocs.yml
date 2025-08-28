@@ -99,27 +99,44 @@ markdown_extensions:
 nav:
   - "🎓 4. ročník":
     - "📚 Učební texty": 04/index.md
-    - "📅 Plán hodin": 04/plan-hodin.md
+    - "📅 Plán hodin":
+      - "4.A Sk1": 04/plan-hodin-4a-sk1.md
+      - "4.A Sk2": 04/plan-hodin-4a-sk2.md
     - "📊 Hodnocení": 04/hodnoceni.md
   - "🎓 5. ročník":
     - "📚 Učební texty": 05/index.md
-    - "📅 Plán hodin": 05/plan-hodin.md
+    - "📅 Plán hodin":
+      - "5.B Sk1": 05/plan-hodin-5b-sk1.md
+      - "5.B Sk2": 05/plan-hodin-5b-sk2.md
     - "📊 Hodnocení": 05/hodnoceni.md
   - "🎓 6. ročník":
     - "📚 Učební texty": 06/index.md
-    - "📅 Plán hodin": 06/plan-hodin.md
+    - "📅 Plán hodin":
+      - "6.C Sk1": 06/plan-hodin-6c-sk1.md
+      - "6.C Sk2": 06/plan-hodin-6c-sk2.md
     - "📊 Hodnocení": 06/hodnoceni.md
   - "🎓 7. ročník":
     - "📚 Učební texty": 07/index.md
-    - "📅 Plán hodin": 07/plan-hodin.md
+    - "📅 Plán hodin":
+      - "7.A Sk1": 07/plan-hodin-7a-sk1.md
+      - "7.A Sk2": 07/plan-hodin-7a-sk2.md
+      - "7.B Sk1": 07/plan-hodin-7b-sk1.md
+      - "7.B Sk2": 07/plan-hodin-7b-sk2.md
     - "📊 Hodnocení": 07/hodnoceni.md
   - "🎓 8. ročník":
     - "📚 Učební texty": 08/index.md
-    - "📅 Plán hodin": 08/plan-hodin.md
+    - "📅 Plán hodin":
+      - "8.B Sk1": 08/plan-hodin-8b-sk1.md
+      - "8.B Sk2": 08/plan-hodin-8b-sk2.md
+      - "8.C Sk2": 08/plan-hodin-8c-sk2.md
     - "📊 Hodnocení": 08/hodnoceni.md
   - "🎓 9. ročník":
     - "📚 Učební texty": 09/index.md
-    - "📅 Plán hodin": 09/plan-hodin.md
+    - "📅 Plán hodin":
+      - "9.A Sk1": 09/plan-hodin-9a-sk1.md
+      - "9.A Sk2": 09/plan-hodin-9a-sk2.md
+      - "9.B Sk2": 09/plan-hodin-9b-sk2.md
+      - "9.C Sk2": 09/plan-hodin-9c-sk2.md
     - "📊 Hodnocení": 09/hodnoceni.md
   - "📚 Návody":
     - navody/index.md
