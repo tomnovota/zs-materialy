@@ -125,6 +125,11 @@ nav:
     - "📚 Učební texty": 09/index.md
     - "📅 Plán hodin": 09/plan-hodin.md
     - "📊 Hodnocení": 09/hodnoceni.md
+  - "📚 Návody":
+    - navody/index.md
+    - "💻 Počítačová gramotnost": navody/pocitacova-gramotnost.md
+    - "🏢 Office365": navody/office365.md
+    - "🌱 Zdravé používání počítače": navody/zdrave-pouzivani-pocitace.md
 
 # Extra
 extra:
