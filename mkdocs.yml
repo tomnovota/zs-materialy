@@ -101,22 +101,30 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - "📚 Učební texty":
-    - index.md
-    - "4. ročník": 04/index.md
-    - "5. ročník": 05/index.md  
-    - "6. ročník": 06/index.md
-    - "7. ročník": 07/index.md
-    - "8. ročník": 08/index.md
-    - "9. ročník": 09/index.md
-  - "📊 Hodnocení":
-    - hodnoceni/index.md
-    - "4. ročník": hodnoceni/04/index.md
-    - "5. ročník": hodnoceni/05/index.md
-    - "6. ročník": hodnoceni/06/index.md
-    - "7. ročník": hodnoceni/07/index.md
-    - "8. ročník": hodnoceni/08/index.md
-    - "9. ročník": hodnoceni/09/index.md
+  - "🎓 4. ročník":
+    - "📚 Učební texty": 04/index.md
+    - "📅 Plán hodin": 04/plan-hodin.md
+    - "📊 Hodnocení": 04/hodnoceni.md
+  - "🎓 5. ročník":
+    - "📚 Učební texty": 05/index.md
+    - "📅 Plán hodin": 05/plan-hodin.md
+    - "📊 Hodnocení": 05/hodnoceni.md
+  - "🎓 6. ročník":
+    - "📚 Učební texty": 06/index.md
+    - "📅 Plán hodin": 06/plan-hodin.md
+    - "📊 Hodnocení": 06/hodnoceni.md
+  - "🎓 7. ročník":
+    - "📚 Učební texty": 07/index.md
+    - "📅 Plán hodin": 07/plan-hodin.md
+    - "📊 Hodnocení": 07/hodnoceni.md
+  - "🎓 8. ročník":
+    - "📚 Učební texty": 08/index.md
+    - "📅 Plán hodin": 08/plan-hodin.md
+    - "📊 Hodnocení": 08/hodnoceni.md
+  - "🎓 9. ročník":
+    - "📚 Učební texty": 09/index.md
+    - "📅 Plán hodin": 09/plan-hodin.md
+    - "📊 Hodnocení": 09/hodnoceni.md
 
 # Extra
 extra:
