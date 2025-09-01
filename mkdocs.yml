@@ -140,8 +140,16 @@ nav:
     - "📊 Hodnocení": 09/hodnoceni.md
   - "📚 Návody":
     - navody/index.md
-    - "💻 Počítačová gramotnost": navody/pocitacova-gramotnost.md
-    - "🏢 Office365": navody/office365.md
+    - "� Tvorba dokumentů": navody/tvorba-dokumentu.md
+    - "🎤 Prezentování": navody/prezentovani.md
+    - "🎨 Grafická úprava": navody/graficka-uprava.md
+    - "🔍 Efektivní vyhledávání": navody/vyhledavani.md
+    - "🌐 Práce s prohlížečem": navody/prohlidace.md
+    - "🤖 AI asistenti a chatboti": navody/ai-asistenti.md
+    - "👥 Microsoft Teams": navody/teams.md
+    - "☁️ Cloudové služby": navody/cloudove-sluzby.md
+    - "�💻 Počítačová gramotnost": navody/pocitacova-gramotnost.md
+    - "📋 Microsoft Forms": navody/forms.md
     - "🌱 Zdravé používání počítače": navody/zdrave-pouzivani-pocitace.md
 
 # Extra
