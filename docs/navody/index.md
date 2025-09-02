@@ -4,6 +4,9 @@
 
 Tato sekce obsahuje praktické návody a průvodce na základní počítačové dovednosti, práci s nejběžnějšími aplikacemi i tipy pro zdravé používání technologií.
 
+💡 **Tip:** Neváhejte sdílet tyto materiály s rodinou nebo přáteli.
+
+
 ## 💻 Počítačová gramotnost
 
 ### [🌱 Zdravé používání počítače](zdrave-pouzivani-pocitace.md)
@@ -92,4 +95,3 @@ Vše o tvorbě a přednesu prezentací:
 
 ---
 
-💡 **Tip:** Neváhejte sdílet tyto materiály s rodinou nebo přáteli. Pravidelně se vracejte k těmto návodům - digitální dovednosti se postupně zlepšují s praxí.

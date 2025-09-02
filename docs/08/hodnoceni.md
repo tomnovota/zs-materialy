@@ -1,8 +1,10 @@
 # 📊 Hodnocení - 8. ročník
 
+> Pro klasifikaci je potřeba mít známku z každé oblasti hodnocení.
+
 ## 1. pololetí
 
-| Kritérium         | Váha | Termín        |
+| Oblast            | Váha | Termín        |
 | ----------------- | ---- | ------------- |
 | Znalostní test    | 3    |               |
 | Aktivita v hodině | 2    | každou hodinu |
@@ -11,7 +13,7 @@
 
 ## 2. pololetí
 
-| Kritérium           | Váha | Termín        |
+| Oblast              | Váha | Termín        |
 | ------------------- | ---- | ------------- |
 | Znalostní test      | 3    |               |
 | Aktivita v hodině   | 2    | každou hodinu |

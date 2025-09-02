@@ -58,6 +58,8 @@ title: Informatika pro základní školu
 - 3D tiskárna
 - gravírovací stroj
 
+## [Zdravé používání počítače](navody/zdrave-pouzivani-pocitace.md)
+
 ## 🎯 Struktura materiálů
 
 Materiály jsou organizovány podle ročníků. Pro každý ročník najdete:
