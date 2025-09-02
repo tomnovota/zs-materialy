@@ -4,7 +4,7 @@
 
 ### Správné sezení
 - **Výška židle:** Nohy položené na zemi, stehna vodorovně
-- **Záda:** Opřená o opěradlo, rovná páteř, lordóza podporovaná
+- **Záda:** Opřená o opěradlo, rovná páteř, podporovaná lordóza
 - **Ruce:** Lokty v úhlu 90-110°, zápěstí rovná a neutrální
 - **Hlava:** Rovná, pohled směrem dopředu, brada mírně vtažená
 
@@ -27,6 +27,8 @@
 - **Hluk:** Minimální rušivé zvuky
 - **Pořádek:** Organizované pracovní místo
 
+![alt text](image.png)
+
 ## 👀 Ochrana zraku
 
 ### Pravidlo 20-20-20
@@ -47,31 +49,12 @@
 - **Tmavý režim** aplikací - zejména večer
 - **Snížení jasu** před spaním
 
-### Pravidelné kontroly zraku
-- **Dětský oční lékař** - minimálně jednou ročně
-- **Příznaky únavy očí:** pálení, slzení, rozostřené vidění
-- **Signály problémů:** časté bolesti hlavy, mžitky před očima
-- **Korekční pomůcky** - brýle nebo čočky podle doporučení lékaře
-
 ## ⏰ Časové limity a digitální hygiena
 
-### Doporučené limity podle věku
-- **1.-5. ročník:** Maximálně 1 hodina denně (mimo školní práci)
-- **6.-9. ročník:** Maximálně 2 hodiny denně (mimo školní práci)
+### Doporučené limity
+- **Pracovní dny:** Maximálně 2 hodiny denně (mimo školní práci)
 - **Víkendy:** O něco volnější, ale ne celý den u obrazovky
 - **Přestávky:** Minimálně 15 minut každou hodinu aktivní práce
-
-### Plánování času u obrazovky
-```
-Denní rozvrh pro žáka 7. třídy:
-07:00 - 15:00  Škola (povinné)
-15:00 - 16:00  Odpočinek, svačina
-16:00 - 17:30  Domácí úkoly (obrazovka)
-17:30 - 18:30  Sport/venkovní aktivity
-18:30 - 19:00  Večeře
-19:00 - 20:00  Volný čas (max. 1 hod. u obrazovky)
-20:00 - 21:00  Příprava na spánek (bez obrazovek)
-```
 
 ### Zdravé návyky
 - **Žádné obrazovky 1-2 hodiny před spaním** - lepší kvalita spánku
@@ -154,52 +137,6 @@ Denní rozvrh pro žáka 7. třídy:
 - **Privátní profily** - nastavení soukromí na sociálních sítích
 - **Nedůvěřivost k neznámým** - online i offline pravidla platí stejně
 - **Backup důležitých dat** - záloha proti ransomware
-
-## ✅ Denní kontrolní seznam zdravého používání
-
-### Před začátkem práce
-- [ ] Správně nastavené pracovní místo
-- [ ] Dostatečné osvětlení
-- [ ] Naplánované přestávky
-- [ ] Hydratace - sklenka vody po ruce
-
-### Během práce (každou hodinu)
-- [ ] 15minutová přestávka
-- [ ] Protažení krku a ramen
-- [ ] Pravidlo 20-20-20 pro oči
-- [ ] Kontrola držení těla
-
-### Na konci dne
-- [ ] Ukončení práce 1-2 hodiny před spaním
-- [ ] Zhodnocení času stráveného u obrazovky
-- [ ] Aktivní odpočinek - sport, čtení
-- [ ] Příprava na následující den
-
-### Týdenní kontroly
-- [ ] Celkový čas u obrazovky za týden
-- [ ] Kvalita spánku
-- [ ] Fyzická kondice
-- [ ] Sociální kontakty offline
-
-## 🌟 Tipy pro rodiče
-
-### Jak podpořit zdravé návyky
-- **Být příkladem** - vlastní zdravé používání technologií
-- **Společné aktivity** - bez obrazovek
-- **Edukace** - vysvětlovat důvody omezení
-- **Kompromisy** - rozumná pravidla, ne úplný zákaz
-
-### Varovné signály
-- **Odmítání jiných aktivit** - jen počítač/telefon
-- **Problémy ve škole** - kvůli únavě z obrazovek
-- **Fyzické problémy** - bolesti, poruchy spánku
-- **Sociální izolace** - ztráta kontaktu s vrstevníky
-
-### Kdy vyhledat pomoc
-- **Dlouhodobé fyzické problémy** - lékař, fyzioterapeut
-- **Závislostní chování** - psycholog, psychiatr
-- **Problémy ve škole** - školní poradce
-- **Rodinné konflikty** - rodinná terapie
 
 ---
 

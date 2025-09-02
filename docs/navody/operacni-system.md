@@ -1,4 +1,4 @@
-# 💻 Počítačová gramotnost
+# 💻 Operační systém
 
 ## ⌨️ Klávesové zkratky - efektivní ovládání
 
@@ -18,10 +18,7 @@ Ctrl + F = Najít na stránce
 ```
 Windows + D = Zobrazit plochu
 Windows + L = Zamknout počítač
-Windows + R = Spustit (Run dialog)
 Windows + E = Průzkumník souborů
-Windows + I = Nastavení
-Windows + S = Vyhledávání
 Alt + Tab = Přepínání mezi aplikacemi
 Alt + F4 = Zavřít aplikaci
 ```
@@ -31,7 +28,6 @@ Alt + F4 = Zavřít aplikaci
 Windows + Left/Right = Přichytit okno na stranu
 Windows + Up = Maximalizovat okno
 Windows + Down = Minimalizovat okno
-Windows + Shift + S = Snímek obrazovky
 Ctrl + Shift + T = Obnovit zavřenou kartu (prohlížeč)
 ```
 
