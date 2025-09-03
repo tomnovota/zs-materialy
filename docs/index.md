@@ -67,7 +67,11 @@ Materiály jsou organizovány podle ročníků. Pro každý ročník najdete:
 - **📚 Výukové texty** - teoretické základy a vysvětlení pojmů
 - **📅 Plán hodin** - plán výuky na celý školní rok  
 - **📊 Hodnocení** - kritéria a způsoby hodnocení
+
+Navíc v navigaci najdete odkaz na:
+
 - **📚 Návody** - základní počítačové dovednosti
+- **📞 Kontakt** - kontakt na vyučující
 
 ---
 
