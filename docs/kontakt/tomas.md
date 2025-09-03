@@ -9,9 +9,11 @@
 
 **Kabinet:** Kabinet chemie (1. patro, budova A)
 
+**📱 Teams:** @tomas.novotny  
+
 **📧 E-mail:** [tomas.novotny@zshovorcovicka.cz](mailto:tomas.novotny@zshovorcovicka.cz)
 
-**📱 Teams:** @tomas.novotny  
+**🗂️ Bakaláři:** @Bc. Tomáš Novotný
 
 ## Prezence
 
