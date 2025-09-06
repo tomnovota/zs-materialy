@@ -4,6 +4,19 @@ title: Informatika pro základní školu
 
 # 📚 Informatika
 
+## 🎯 Struktura materiálů
+
+Materiály jsou organizovány podle ročníků. Pro každý ročník najdete:
+
+- **📚 Výukové texty** - teoretické základy a vysvětlení pojmů
+- **📅 Plán hodin** - plán výuky na celý školní rok  
+- **📊 Hodnocení** - kritéria a způsoby hodnocení
+
+Navíc v navigaci najdete odkaz na:
+
+- **📚 Návody** - základní počítačové dovednosti
+- **📞 Kontakt** - kontakt na vyučující
+
 ## Řád počítačové učebny
 
 > Počítače používat pouze po pokynu a v přítomnosti učitele 
@@ -46,7 +59,7 @@ title: Informatika pro základní školu
    a svým heslem
 2. personalizovat nastavení operačního systému
 3. připravit webový prohlížeč (**Microsoft Edge**, Google Chrome)
-4. připravit osobní složku na [OneDrive](https://zshovorcovicka-my.sharepoint.com/?source=waffle) pro správu vlastních souborů
+4. připravit osobní složku na [OneDrive](https://zshovorcovicka-my.sharepoint.com/my?source=waffle) pro správu vlastních souborů
 5. veškeré materiály pro výuku budou dostupné na [SharePointu](#)
 
 ### Vybavení učebny
@@ -59,21 +72,6 @@ title: Informatika pro základní školu
 - gravírovací stroj
 
 ## [Zdravé používání počítače](navody/zdrave-pouzivani-pocitace.md)
-
-## 🎯 Struktura materiálů
-
-Materiály jsou organizovány podle ročníků. Pro každý ročník najdete:
-
-- **📚 Výukové texty** - teoretické základy a vysvětlení pojmů
-- **📅 Plán hodin** - plán výuky na celý školní rok  
-- **📊 Hodnocení** - kritéria a způsoby hodnocení
-
-Navíc v navigaci najdete odkaz na:
-
-- **📚 Návody** - základní počítačové dovednosti
-- **📞 Kontakt** - kontakt na vyučující
-
----
 
 *Materiály jsou průběžně aktualizovány a rozšiřovány podle aktuálních potřeb výuky.*
 
