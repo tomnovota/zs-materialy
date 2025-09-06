@@ -148,7 +148,9 @@ nav:
       - "🔍 Efektivní vyhledávání": navody/vyhledavani.md
       - "🤖 AI asistenti a chatboti": navody/ai-asistenti.md
     - "☁️ Office 365":
-      - "☁️ Cloudové služby": navody/cloudove-sluzby.md
+      - navody/office365.md
+      - "📁 OneDrive": navody/onedrive.md
+      - "📧 Outlook": navody/outlook.md
       - "📱 Microsoft Teams": navody/teams.md
       - "📋 Microsoft Forms": navody/forms.md
     - "✍️ Tvorba obsahu":
