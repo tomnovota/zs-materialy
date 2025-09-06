@@ -8,14 +8,13 @@ Každý žák jednou za pololetí umyje čistícími prostředky periferie k po�
 
 | Oblast            | Váha | Termín        |
 | ----------------- | ---- | ------------- |
-| Znalostní test    | 3    |               |
+| Znalostní test    | 3    | 10.-12.12.    |
 | Aktivita v hodině | 2    | každou hodinu |
 
 
 ## 2. pololetí
 
-| Oblast                            | Váha | Termín        |
-| --------------------------------- | ---- | ------------- |
-| Znalostní test                    | 3    |               |
-| Aktivita v hodině                 | 2    | každou hodinu |
-| Online deníček používání počítače | 2    |               |
+| Oblast            | Váha | Termín        |
+| ----------------- | ---- | ------------- |
+| Znalostní test    | 3    | 20.-22.05.    |
+| Aktivita v hodině | 2    | každou hodinu |

@@ -753,4 +753,376 @@ SOCIÁLNÍ SÍŤ ALGORITMUS:
 
 ---
 
+## 🤖 Umělá inteligence {#umelá-inteligence}
+
+### 🧠 Co je umělá inteligence?
+
+> **Umělá inteligence (AI)** = programy, které dokážou řešit úlohy stejně dobře nebo lépe než člověk
+
+#### 🔧 Oblasti využití AI
+
+| Oblast              | Příklady použití                | Výhody             |
+| ------------------- | ------------------------------- | ------------------ |
+| 🏥 **Zdravotnictví** | Diagnostika, analýza snímků     | Rychlost, přesnost |
+| 🚗 **Doprava**       | Autonomní vozidla, GPS navigace | Bezpečnost         |
+| 🛒 **E-commerce**    | Doporučení produktů             | Personalizace      |
+| 🎮 **Zábava**        | Herní AI, doporučení filmů      | Lepší zážitek      |
+| 🔍 **Vyhledávání**   | Google Search, Siri, Alexa      | Pohodlí            |
+
+#### ⚖️ Etické otázky AI
+
+**✅ Pozitiva:**
+- 🚀 Zvyšuje produktivitu
+- 🩺 Pomáhá v medicíně
+- ♿ Zpřístupňuje technologie
+
+**⚠️ Rizika:**
+- 💼 Ztráta pracovních míst
+- 🕵️ Narušení soukromí
+- ⚖️ Zaujatost algoritmů
+- 🤖 Ztráta lidské kontroly
+
+---
+
+## 📚 Strojové učení {#strojové-učení}
+
+### 🧠 Princip strojového učení
+
+> **Strojové učení** = algoritmy, které se zlepšují na základě zkušeností (dat)
+
+```
+📊 PROCES UČENÍ:
+📈 Data ──► 🧠 Učící algoritmus ──► 🎯 Natrénovaný model ──► 📊 Predikce na novém příkladu
+```
+
+#### 🎓 Typy učení
+
+| Typ učení           | Popis                         | Příklady             |
+| ------------------- | ----------------------------- | -------------------- |
+| 👨‍🏫 **Supervised**    | S učitelem (vzorové odpovědi) | Rozpoznávání obrázků |
+| 🔍 **Unsupervised**  | Bez učitele (hledání vzorců)  | Shlukování zákazníků |
+| 🎮 **Reinforcement** | Učení odměnami/tresty         | Herní AI, robotika   |
+
+#### 🛠️ Praktické aplikace
+
+**🎯 Rozpoznávání vzorců:**
+- 📧 Spam filter v emailu
+- 🗣️ Rozpoznávání řeči (Siri, Google Assistant)
+- 👁️ Rozpoznávání tváří na fotkách
+
+**📊 Predikce:**
+- 🌤️ Předpověď počasí
+- 📈 Ceny akcií
+- 🛒 Doporučení produktů
+
+**🔧 Automatizace:**
+- 🚗 Autonomní řízení
+- 🏭 Průmyslová robotika
+- 📝 Automatický překlad
+
+---
+
+## 🤖 Robotika a drony {#robotika-drony}
+
+### 🤖 Co je robot?
+
+> **Robot** = programovatelný stroj, který dokáže vykonávat úkoly autonomně nebo na příkaz
+
+#### 🏗️ Složení robota
+
+```
+🤖 ROBOT
+├── 🧠 Řídící jednotka (procesor)
+├── 👁️ Senzory (kamery, mikrofony)
+├── 🦾 Akční členy (motory, ramena)
+├── 🔋 Napájení (baterie)
+└── 📡 Komunikace (WiFi, Bluetooth)
+```
+
+#### 🎯 Typy robotů
+
+| Typ robota         | Prostředí    | Příklady použití       |
+| ------------------ | ------------ | ---------------------- |
+| 🏭 **Průmyslové**   | Továrny      | Svařování, montáž      |
+| 🏠 **Domácí**       | Domov        | Vysávání, sekání trávy |
+| 🏥 **Zdravotnické** | Nemocnice    | Operace, rehabilitace  |
+| 🚗 **Mobilní**      | Venku/uvnitř | Doprava, průzkum       |
+| 🤝 **Sociální**     | S lidmi      | Asistence, vzdělávání  |
+
+### 🚁 Drony (UAV)
+
+> **Dron** = bezpilotní létající prostředek řízený na dálku nebo autonomně
+
+#### 📱 Typy dronů
+
+| Typ drona        | Velikost | Použití              |
+| ---------------- | -------- | -------------------- |
+| 📷 **Spotřební**  | Malé     | Fotografie, zábava   |
+| 🚁 **Komerční**   | Střední  | Filming, monitoring  |
+| 🏭 **Průmyslové** | Velké    | Doprava, zemědělství |
+| ⚔️ **Vojenské**   | Různé    | Průzkum, obrana      |
+
+#### 🎯 Využití dronů
+
+**📸 Kreativní:**
+- 🎬 Filmování z výšky
+- 📷 Letecká fotografie
+- 🏃‍♂️ Sportovní záběry
+
+**🏢 Komerční:**
+- 📦 Doručování balíků
+- 🌾 Monitoring plodin
+- 🔍 Kontrola infrastruktury
+
+**🚨 Bezpečnostní:**
+- 🔍 Pátrání a záchrana
+- 🔥 Hasičský průzkum
+- 👮‍♂️ Policejní dohled
+
+---
+
+## 👁️ Zpracování obrazu a počítačové vidění {#zpracovani-obrazu}
+
+### 📷 Co je počítačové vidění?
+
+> **Počítačové vidění** = schopnost počítače "vidět" a rozumět obsahu obrázků a videí
+
+#### 🔍 Základní úlohy
+
+```
+🖼️ OBRÁZEK ──► 🧠 AI ──► 📊 ANALÝZA
+                    │
+                    ├── 🏷️ Klasifikace (co je na obrázku?)
+                    ├── 📍 Detekce (kde jsou objekty?)  
+                    ├── 🎯 Segmentace (hranice objektů)
+                    └── 👁️ Rozpoznávání (kdo je to?)
+```
+
+#### 🛠️ Praktické aplikace
+
+| Oblast           | Aplikace             | Příklady           |
+| ---------------- | -------------------- | ------------------ |
+| 📱 **Smartphony** | Rozpoznávání tváří   | Odemykání telefonu |
+| 🏥 **Medicína**   | Analýza rentgenů     | Diagnostika chorob |
+| 🚗 **Doprava**    | Rozpoznávání značek  | Autonomní vozidla  |
+| 🛒 **Retail**     | Automatické pokladny | Amazon Go          |
+| 🏭 **Průmysl**    | Kontrola kvality     | Vadné výrobky      |
+| 👮‍♂️ **Bezpečnost** | Kamerové systémy     | Rozpoznávání lidí  |
+
+#### 🖼️ Zpracování obrazu - kroky
+
+**1️⃣ Načtení obrázku:**
+- 📊 Převod na číselnou matici (pixely)
+- 🌈 RGB hodnoty pro každý bod
+
+**2️⃣ Preprocessing:**
+- 📐 Změna velikosti
+- 🔆 Úprava jasu/kontrastu  
+- 🔄 Rotace, ořez
+
+**3️⃣ Feature extraction:**
+- 📏 Detekce hran a tvarů
+- 🎨 Analýza textur a barev
+- 📊 Matematické deskriptory
+
+**4️⃣ Analýza:**
+- 🤖 Strojové učení
+- 🧠 Neurální sítě
+- 📊 Klasifikační algoritmy
+
+---
+
+## 🔊 Zvukové zpracování {#zvukové-zpracování}
+
+### 🎵 Digitální zvuk
+
+> **Digitální zvuk** = zvukové vlny převedené na číselné hodnoty
+
+#### 📊 Vlastnosti digitálního zvuku
+
+```
+🎵 ZVUKOVÁ VLNA ──► 📊 DIGITALIZACE
+                      │
+                      ├── 📏 Vzorkovací frekvence (Hz)
+                      ├── 🎚️ Bitová hloubka (bit) 
+                      └── 🔊 Počet kanálů (mono/stereo)
+```
+
+| Parametr             | Hodnoty    | Kvalita         |
+| -------------------- | ---------- | --------------- |
+| 📏 **Vzorkování**     | 44.1 kHz   | CD kvalita      |
+| 🎚️ **Bitová hloubka** | 16 bit     | Standardní      |
+| 🔊 **Kanály**         | 2 (stereo) | Prostorový zvuk |
+
+#### 🛠️ Aplikace zpracování zvuku
+
+**🎙️ Rozpoznávání řeči:**
+- 📱 Siri, Google Assistant, Alexa
+- 📝 Automatické titulkování
+- 🌐 Překladače v reálném čase
+
+**🎵 Hudební aplikace:**
+- 🎸 Shazam (rozpoznávání skladeb)
+- 🎧 Spotify doporučení
+- 🎹 Automatické ladění nástrojů
+
+**🔊 Audio efekty:**
+- 🎚️ Potlačení šumu
+- 🔁 Echo a reverb
+- 🎛️ Equalizér
+
+**🩺 Zdravotnictví:**
+- ❤️ Analýza srdečních ozve
+- 🫁 Diagnostika dýchání
+- 👂 Audiometry
+
+#### 🎯 Technologie
+
+| Technologie | Účel             | Příklady             |
+| ----------- | ---------------- | -------------------- |
+| 🤖 **ASR**   | Speech-to-Text   | Diktování, titulky   |
+| 🗣️ **TTS**   | Text-to-Speech   | Čtečky, navigace     |
+| 🎵 **MIR**   | Analýza hudby    | Doporučovací systémy |
+| 🔊 **DSP**   | Digitální filtry | Hi-Fi systémy        |
+
+---
+
+## 🥽 Virtuální a rozšířená realita {#virtualni-realita}
+
+### 🌐 Typy realit
+
+#### 🥽 VR (Virtual Reality)
+
+> **Virtuální realita** = kompletně umělé 3D prostředí
+
+```
+🥽 VR HEADSET
+├── 📺 Displeje pro oči
+├── 🎧 Prostorový zvuk
+├── 📍 Sledování pohybu
+└── 🎮 Ovladače
+```
+
+**Využití:**
+- 🎮 **Gaming** - immerzivní hry
+- 🎓 **Vzdělávání** - virtuální exkurze
+- 💼 **Trénink** - simulace nebezpečných situací
+- 🏥 **Terapie** - léčba fobií
+
+#### 📱 AR (Augmented Reality)
+
+> **Rozšířená realita** = digitální prvky přidané do reálného světa
+
+**Typy AR:**
+- 📱 **Mobilní AR** - přes kameru telefonu
+- 🥽 **Smart brýle** - průhledný displej
+- 🎯 **Projekce** - promítání do prostoru
+
+**Příklady:**
+- 📸 **Instagram filtry** - digitální masky
+- 🗺️ **Pokémon GO** - virtuální objekty v reálném světě
+- 🛋️ **IKEA Place** - nábytek ve tvém pokoji
+- 🚗 **GPS navigace** - šipky na silnici
+
+#### 🔄 MR (Mixed Reality)
+
+> **Smíšená realita** = interakce mezi reálnými a virtuálními objekty
+
+### 🛠️ Technologie a hardware
+
+| Zařízení          | Typ | Příklady           | Cena        |
+| ----------------- | --- | ------------------ | ----------- |
+| 🥽 **VR headsety** | VR  | Meta Quest, PS VR  | 10-50k Kč   |
+| 👓 **AR brýle**    | AR  | Microsoft HoloLens | 100k+ Kč    |
+| 📱 **Mobily**      | AR  | iPhone, Android    | Máš už doma |
+
+#### 🎯 Budoucnost XR
+
+**Trendy:**
+- 👓 **Lehčí brýle** - jako běžné brýle
+- 🧠 **Lepší sledování** - pohyb očí, výraz tváře  
+- 🤲 **Hmatová zpětná vazba** - pocit doteku
+- ☁️ **Cloud rendering** - výpočty na serveru
+
+---
+
+## 🌐 Internet věcí {#internet-věcí}
+
+### 🔗 Co je IoT?
+
+> **Internet věcí (IoT)** = běžné předměty připojené k internetu a vzájemně komunikující
+
+```
+🏠 CHYTRÉ ZAŘÍZENÍ ──► 📡 Internet ──► ☁️ Cloud ──► 📱 Aplikace
+```
+
+#### 🏠 Smart Home (Chytrá domácnost)
+
+| Zařízení             | Funkce                 | Výhody             |
+| -------------------- | ---------------------- | ------------------ |
+| 💡 **Chytré žárovky** | Ovládání přes telefon  | Úspora energie     |
+| 🌡️ **Termostat**      | Automatická regulace   | Pohodlí, úspory    |
+| 🔒 **Zámky**          | Odemykání mobilem      | Bezpečnost         |
+| 📹 **Kamery**         | Monitoring domova      | Dohled na dálku    |
+| 🔊 **Reproduktory**   | Hlasové ovládání       | Hands-free control |
+| 🧼 **Pračka**         | Notifikace o dokončení | Pohodlí            |
+
+#### 🏥 Zdravotní IoT
+
+```
+👤 UŽIVATEL
+├── ⌚ Smartwatch (tepová frekvence)
+├── 📱 Fitness tracker (kroky)  
+├── 🩺 Glukometr (cukr v krvi)
+└── 💊 Smart pilulky (dávkování)
+     ↓
+📊 Zdravotní aplikace
+```
+
+#### 🏭 Průmyslové IoT (IIoT)
+
+**Využití v průmyslu:**
+- 📊 **Monitoring** - stav strojů v reálném čase
+- 🔧 **Prediktivní údržba** - předpověď poruch
+- ⚡ **Optimalizace** - úspora energie
+- 📈 **Analytika** - zlepšení procesů
+
+#### 🚗 Dopravní IoT
+
+| Aplikace               | Popis                      | Přínosy             |
+| ---------------------- | -------------------------- | ------------------- |
+| 🚦 **Smart semafory**   | Adaptivní řízení provozu   | Plynulejší doprava  |
+| 🅿️ **Chytré parkování** | Detekce volných míst       | Úspora času         |
+| 🚌 **Veřejná doprava**  | Tracking autobusů/tramvají | Lepší informovanost |
+| 🛣️ **Silniční senzory** | Monitoring dopravy         | Bezpečnost          |
+
+### ⚖️ Výhody a rizika IoT
+
+#### ✅ Výhody
+- 🏠 **Pohodlí** - automatizace domácnosti
+- ⚡ **Efektivita** - úspora energie a času
+- 📊 **Data** - lepší rozhodování na základě dat
+- 🔧 **Údržba** - predikce poruch
+
+#### ⚠️ Rizika
+- 🔒 **Bezpečnost** - hackování chytrých zařízení
+- 🕵️ **Soukromí** - sledování chování
+- 🌐 **Závislost** - na internetovém připojení
+- 🔋 **Spotřeba** - baterie a energie
+
+#### 🛡️ Bezpečnostní opatření
+
+```
+🔐 ZABEZPEČENÍ IoT:
+├── 🔑 Silná hesla
+├── 🔄 Pravidelné aktualizace
+├── 🌐 Zabezpečená WiFi síť
+├── 🚫 Vypnutí nepotřebných funkcí
+└── 🔍 Monitoring síťového provozu
+```
+
+> **💡 Tip:** Před koupí IoT zařízení si zjisti, jak výrobce řeší bezpečnost a aktualizace!
+
+---
+
 *📅 Vytvořeno pro 9. ročník ZŠ | 🔄 Aktualizováno 2025*

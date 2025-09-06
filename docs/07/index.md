@@ -603,6 +603,9 @@ Brno  ◄────60km─── Jihlava
 
 ## 🎨 Tvorba digitálního obsahu {#tvorba-digitálního-obsahu}
 
+**📚 Citace:**
+> Při použití cizího díla **VŽDY** uvedeme autora a zdroj podle licence!
+
 ### 📄 Dokumenty
 
 #### 📝 Microsoft Word
@@ -621,9 +624,6 @@ Brno  ◄────60km─── Jihlava
 | **Číslování**  | Logické pořadí      | 1., 2., 3.            |
 | **Okraje**     | Vzhled stránky      | 2.5 cm ze všech stran |
 | **Řádkování**  | Čitelnost           | 1.5 řádku             |
-
-**📚 Citace:**
-> Při použití cizího díla **VŽDY** uvedeme autora a zdroj podle licence!
 
 ### 📊 Prezentace
 

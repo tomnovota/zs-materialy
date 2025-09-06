@@ -325,14 +325,17 @@ https://zshovorcovicka.cz/fotogalerie/skolni-akce/
 #### 📝 Metody sběru:
 
 1. **👁️ Pozorování**
+
    - Měření teploty ve třídě
    - Počítání aut na silnici
 
 2. **📋 Dotazníky**
+
    - Online formulář
    - Telefonní rozhovor
 
 3. **📱 Elektronická zařízení**
+
    - Senzory, GPS
    - Aplikace na telefonu
 

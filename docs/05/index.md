@@ -273,6 +273,59 @@ Operační systém je program, který řídí celý počítač:
 
 **Data** = strukturovaně sesbírané a uložené **informace** z okolního světa
 
+### 🧩 Vlastnosti objektů
+
+Každý **objekt** má své **vlastnosti** (*atributy*), které popisují jeho charakteristiky.
+
+- Vlastnosti mohou mít různé **datové typy**:
+    - 🔢 Číslo (např. věk, velikost)
+    - 📝 Text (např. jméno, barva)
+    - 🎨 Barva (např. #FF0000)
+
+> **Příklad:**  
+> Student má vlastnosti:  
+> - Jméno: "Anna" (📝 text)  
+> - Věk: 11 (🔢 číslo)  
+> - Oblíbená barva: modrá (🎨 barva)
+
+#### 📋 Seznamy
+
+- Pokud máme informace o více objektech, tvoříme **seznamy** (datové sady, datasety).
+- Seznam je uspořádaný soubor položek, kde každá položka představuje jeden objekt se svými vlastnostmi.
+- Seznamy mohou být:
+    - **Jednoduché** (např. seznam jmen žáků)
+    - **Tabulkové** (každý řádek = jeden objekt, sloupce = vlastnosti)
+- Umožňují snadné vyhledávání, třídění a porovnávání dat.
+
+> **Příklad seznamu žáků:**
+>
+> - Anna, Tomáš, Marie
+
+> **Příklad tabulkového seznamu:**
+>
+> | Jméno  | Věk | Třída |
+> | ------ | --- | ----- |
+> | Anna   | 11  | 5.A   |
+> | Tomáš  | 12  | 5.B   |
+> | Marie  | 11  | 5.A   |
+
+#### 📋 Jak lze vlastnosti uspořádat?
+
+- Podle **velikosti** (vzestupně/sestupně)
+- Podle **abecedy**
+- Podle **čísla** nebo **písmena**
+
+#### 🗂️ Způsoby číslování a řazení:
+
+| Typ řazení       | Příklad             |
+| ---------------- | ------------------- |
+| 🔢 Číslovaný      | 1, 2, 3, ...        |
+| • Odrážky        | •, ◦, ▪             |
+| 🔤 Písmena        | a, b, c, ...        |
+| Ⅲ Římské číslice | I, II, III, ...     |
+| 🔗 Kombinace      | 1a, 1b, 1c, ...     |
+| 🏗️ Hierarchické   | 1., 1.1, 1.1.1, ... |
+
 ### 📋 Typy datasetů
 
 | Formát                | Popis                 | Příklad použití          |
@@ -288,16 +341,19 @@ Operační systém je program, který řídí celý počítač:
 #### 📝 Hlavní metody:
 
 1. **👁️ Pozorování okolí**
+
    - Měření teploty ve třídě
    - Počítání vozidel na silnici
    - Pozorování chování zvířat
 
 2. **📋 Dotazníkové šetření**
+
    - Online formulář
    - Rozhovor
    - Anketa
 
 3. **📱 Elektronická zařízení**
+
    - GPS senzory
    - Teplotní čidla
    - Mobilní aplikace
