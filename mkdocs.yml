@@ -142,21 +142,21 @@ nav:
     - navody/index.md
     - "💻 Počítačová gramotnost":
       - "🌱 Zdravé používání počítače": navody/zdrave-pouzivani-pocitace.md
-      - "💻 Operační systém": navody/operacni-system.md
-      - "🌐 Práce s prohlížečem": navody/prohlidace.md
-    - "📊 Práce s informacemi":
-      - "🔍 Efektivní vyhledávání": navody/vyhledavani.md
-      - "🤖 AI asistenti a chatboti": navody/ai-asistenti.md
+      # - "💻 Operační systém": navody/operacni-system.md
+      # - "🌐 Práce s prohlížečem": navody/prohlidace.md
+    # - "📊 Práce s informacemi":
+      # - "🔍 Efektivní vyhledávání": navody/vyhledavani.md
+      # - "🤖 AI asistenti a chatboti": navody/ai-asistenti.md
     - "☁️ Office 365":
       - navody/office365.md
       - "📁 OneDrive": navody/onedrive.md
       - "📧 Outlook": navody/outlook.md
-      - "📱 Microsoft Teams": navody/teams.md
-      - "📋 Microsoft Forms": navody/forms.md
-    - "✍️ Tvorba obsahu":
-      - "📝 Tvorba dokumentů": navody/tvorba-dokumentu.md
-      - "🎨 Práce s grafikou": navody/graficka-uprava.md
-      - "🎤 Prezentování": navody/prezentovani.md
+      # - "📱 Microsoft Teams": navody/teams.md
+      # - "📋 Microsoft Forms": navody/forms.md
+    # - "✍️ Tvorba obsahu":
+      # - "📝 Tvorba dokumentů": navody/tvorba-dokumentu.md
+      # - "🎨 Práce s grafikou": navody/graficka-uprava.md
+      # - "🎤 Prezentování": navody/prezentovani.md
   - "📞 Kontakt":
     - kontakt/index.md
     - "👨‍🏫 Tomáš Novotný": kontakt/tomas.md

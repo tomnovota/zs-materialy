@@ -5,7 +5,7 @@
 Tato sekce obsahuje praktické návody a průvodce na základní počítačové dovednosti, práci s nejběžnějšími aplikacemi i tipy pro zdravé používání technologií.
 
 💡 **Tip:** Neváhejte sdílet tyto materiály s rodinou nebo přáteli.
-
+<!-- 
 
 ## 💻 Počítačová gramotnost
 
@@ -94,4 +94,4 @@ Vše o tvorbě a přednesu prezentací:
 - Časové plánování a příprava
 
 ---
-
+ -->
