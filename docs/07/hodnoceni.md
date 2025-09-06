@@ -4,6 +4,11 @@
 
 Každý žák jednou za pololetí umyje čistícími prostředky periferie k počítači.
 
+### Projekt
+- každý žák si vybere, zda bude:
+  1. průběžně pracovat na projektu s vlastním tématem
+  2. nebo zda splní na konci školního roku závěrečný úkol
+
 ## 1. pololetí
 
 | Oblast            | Váha | Termín        |
