@@ -40,7 +40,6 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
-    - navigation.indexes
     - navigation.top
     - search.highlight
     - search.share
@@ -98,65 +97,214 @@ markdown_extensions:
 # Page tree
 nav:
   - "🎓 4. ročník":
-    - "📚 Výukové texty": 04/index.md
+    - "📚 Výukový text": 04/index.md
     - "📅 Plán hodin":
       - "4.A Sk1": 04/plan-hodin-4a-sk1.md
       - "4.A Sk2": 04/plan-hodin-4a-sk2.md
+    - "📖 Výuka":
+      - "02 Příklady digitálních zařízení, periferie, složení počítače": 04/vyuka/02/index.md
+      - "03 Účel počítačů, bezpečnost při práci s počítačem, digitální reprezentace": 04/vyuka/03/index.md
+      - "04 Operační systém a prvky uživatelského rozhraní": 04/vyuka/04/index.md
+      - "05 Průzkumník souborů a práce se soubory": 04/vyuka/05/index.md
+      - "06 Aplikace": 04/vyuka/06/index.md
+      - "07 Sítě": 04/vyuka/07/index.md
+      - "08 Internet": 04/vyuka/08/index.md
+      - "09 Webové stránky": 04/vyuka/09/index.md
+      - "10 Šifrování": 04/vyuka/10/index.md
+      - "11 Uživatelské účty a autentizace, bezpečné heslo a dvoufázové ověření": 04/vyuka/11/index.md
+      - "12 Ochrana před útoky a zálohování": 04/vyuka/12/index.md
+      - "13 Informační gramotnost a kritické přemýšlení": 04/vyuka/13/index.md
+      - "14 Rizika digitálních služeb - závislost, soukromí, cizí lidé, autorství": 04/vyuka/14/index.md
+      - "15 Algoritmus": 04/vyuka/15/index.md
+      - "16 Příklady algoritmů": 04/vyuka/16/index.md
+      - "17 Úlohy na algoritmizaci": 04/vyuka/17/index.md
+      - "18 Programovací jazyky": 04/vyuka/18/index.md
+      - "19 Programování ve Scratch": 04/vyuka/19/index.md
+      - "20 Programování s Ozobotem": 04/vyuka/20/index.md
+      - "21 Tisk na 3D tiskárně": 04/vyuka/21/index.md
     - "📊 Hodnocení": 04/hodnoceni.md
   - "🎓 5. ročník":
-    - "📚 Výukové texty": 05/index.md
+    - "📚 Výukový text": 05/index.md
     - "📅 Plán hodin":
       - "5.B Sk1": 05/plan-hodin-5b-sk1.md
       - "5.B Sk2": 05/plan-hodin-5b-sk2.md
+    - "📖 Výuka":
+      - "02 Příklady digitálních zařízení, periferie a složení počítače": 05/vyuka/02/index.md
+      - "03 Účel počítačů, bezpečnost při práci s počítačem, hesla": 05/vyuka/03/index.md
+      - "04 Kódování informace": 05/vyuka/04/index.md
+      - "05 Digitální reprezentace a binární soustava": 05/vyuka/05/index.md
+      - "06 Datové typy a komprese dat": 05/vyuka/06/index.md
+      - "07 Operační systém a prvky uživatelského rozhraní": 05/vyuka/07/index.md
+      - "08 Průzkumník souborů a práce se soubory": 05/vyuka/08/index.md
+      - "09 Používání aplikací a základní aplikace": 05/vyuka/09/index.md
+      - "10 Sítě": 05/vyuka/10/index.md
+      - "11 Vlastnosti objektů, jejich řazení a číslování": 05/vyuka/11/index.md
+      - "12 Data a datasety": 05/vyuka/12/index.md
+      - "13 Sběr dat - pozorování okolí": 05/vyuka/13/index.md
+      - "14 Sběr dat - dotazníkové šetření": 05/vyuka/14/index.md
+      - "15 Vyhledávání dat": 05/vyuka/15/index.md
+      - "16 Ukládání dat a datové typy": 05/vyuka/16/index.md
+      - "17 Cloudové úložiště": 05/vyuka/17/index.md
+      - "18 Problémy v datech": 05/vyuka/18/index.md
+      - "19 Vyhodnocení dat": 05/vyuka/19/index.md
+      - "20 Grafy": 05/vyuka/20/index.md
+      - "21 Závěry z dat": 05/vyuka/21/index.md
+      - "22 Zpracování dat a strojové učení": 05/vyuka/22/index.md
+      - "23 Příklady a účel informačních systémů": 05/vyuka/23/index.md
+      - "24 Technologie informačních systémů, uživatelé a práva": 05/vyuka/24/index.md
+      - "25 Schémata": 05/vyuka/25/index.md
     - "📊 Hodnocení": 05/hodnoceni.md
   - "🎓 6. ročník":
-    - "📚 Výukové texty": 06/index.md
+    - "📚 Výukový text": 06/index.md
     - "📅 Plán hodin":
       - "6.C Sk1": 06/plan-hodin-6c-sk1.md
       - "6.C Sk2": 06/plan-hodin-6c-sk2.md
+    - "📖 Výuka":
+      - "02 Příklady digitálních zařízení, periferie a složení počítače": 06/vyuka/02/index.md
+      - "03 Účel počítačů, bezpečnost při práci s počítačem, hesla": 06/vyuka/03/index.md
+      - "04 Kódování informace": 06/vyuka/04/index.md
+      - "05 Digitální reprezentace a binární soustava": 06/vyuka/05/index.md
+      - "06 Datové typy a komprese dat": 06/vyuka/06/index.md
+      - "07 Operační systém a prvky uživatelského rozhraní": 06/vyuka/07/index.md
+      - "08 Průzkumník souborů a práce se soubory": 06/vyuka/08/index.md
+      - "09 Používání aplikací a základní aplikace": 06/vyuka/09/index.md
+      - "10 Sítě": 06/vyuka/10/index.md
+      - "11 Data a datasety": 06/vyuka/11/index.md
+      - "12 Sběr dat - pozorování okolí": 06/vyuka/12/index.md
+      - "13 Sběr dat - dotazníkové šetření": 06/vyuka/13/index.md
+      - "14 Vyhledávání dat": 06/vyuka/14/index.md
+      - "15 Ukládání dat a datové typy": 06/vyuka/15/index.md
+      - "16 Cloudové úložiště": 06/vyuka/16/index.md
+      - "17 Problémy v datech": 06/vyuka/17/index.md
+      - "18 Vyhodnocení dat": 06/vyuka/18/index.md
+      - "19 Grafy": 06/vyuka/19/index.md
+      - "20 Závěry z dat": 06/vyuka/20/index.md
+      - "21 Zpracování dat a strojové učení": 06/vyuka/21/index.md
+      - "22 Příklady a účel informačních systémů": 06/vyuka/22/index.md
+      - "23 Technologie informačních systémů, uživatelé a práva": 06/vyuka/23/index.md
+      - "24 Šifrování": 06/vyuka/24/index.md
+      - "25 Uživatelské účty a autentizace": 06/vyuka/25/index.md
+      - "26 Ochrana před útoky a zálohování": 06/vyuka/26/index.md
+      - "27 Informační gramotnost a kritické přemýšlení": 06/vyuka/27/index.md
+      - "28 Rizika digitálních služeb - závislost, soukromí, cizí lidé, autorství": 06/vyuka/28/index.md
+      - "29 Algoritmus": 06/vyuka/29/index.md
+      - "30 Příklady algoritmů": 06/vyuka/30/index.md
+      - "31 Úlohy na algoritmizaci": 06/vyuka/31/index.md
+      - "32 Vývoj programu - plánování, testování, ladění chyb": 06/vyuka/32/index.md
     - "📊 Hodnocení": 06/hodnoceni.md
   - "🎓 7. ročník":
-    - "📚 Výukové texty": 07/index.md
+    - "📚 Výukový text": 07/index.md
     - "📅 Plán hodin":
       - "7.A Sk1": 07/plan-hodin-7a-sk1.md
       - "7.A Sk2": 07/plan-hodin-7a-sk2.md
       - "7.B Sk1": 07/plan-hodin-7b-sk1.md
       - "7.B Sk2": 07/plan-hodin-7b-sk2.md
+    - "📖 Výuka":
+      - "02 Příklady digitálních zařízení, periferie a složení počítače": 07/vyuka/02/index.md
+      - "03 Účel počítačů, bezpečnost při práci s počítačem, hesla": 07/vyuka/03/index.md
+      - "04 Kódování informace a digitální reprezentace": 07/vyuka/04/index.md
+      - "05 Datové typy a komprese dat": 07/vyuka/05/index.md
+      - "06 Operační systém a prvky uživatelského rozhraní": 07/vyuka/06/index.md
+      - "07 Průzkumník souborů a práce se soubory": 07/vyuka/07/index.md
+      - "08 Používání aplikací a základní aplikace": 07/vyuka/08/index.md
+      - "09 Sítě": 07/vyuka/09/index.md
+      - "10 Internet a připojení k internetu": 07/vyuka/10/index.md
+      - "11 Webové stránky": 07/vyuka/11/index.md
+      - "12 Uživatelské účty a autentizace": 07/vyuka/12/index.md
+      - "13 Ochrana před útoky a zálohování": 07/vyuka/13/index.md
+      - "14 Informační gramotnost a kritické přemýšlení": 07/vyuka/14/index.md
+      - "15 Rizika digitálních služeb - závislost, soukromí, cizí lidé, autorství": 07/vyuka/15/index.md
+      - "16 Příklady a účel informačních systémů": 07/vyuka/16/index.md
+      - "17 Technologie informačních systémů, uživatelé a práva": 07/vyuka/17/index.md
+      - "18 Schémata": 07/vyuka/18/index.md
+      - "19 Tvorba digitálního obsahu - dokumenty": 07/vyuka/19/index.md
+      - "20 Tvorba digitálního obsahu - prezentace": 07/vyuka/20/index.md
+      - "21 Tvorba digitálního obsahu - tabulky": 07/vyuka/21/index.md
+      - "22 Tvorba digitálního obsahu - rastrová grafika": 07/vyuka/22/index.md
+      - "23 Vyhledávače a AI asistenti": 07/vyuka/23/index.md
+      - "24 Autorství a licence, Ochrana osobních údajů": 07/vyuka/24/index.md
+      - "25 Algoritmus, příklady algoritmů": 07/vyuka/25/index.md
+      - "26 Úlohy na algoritmizaci, řadící a třídící algoritmy": 07/vyuka/26/index.md
+      - "27 Programovací jazyky": 07/vyuka/27/index.md
+      - "28 Vývoj programu - plánování, testování, ladění chyb": 07/vyuka/28/index.md
+      - "29 Programování her v Makecode Arcade": 07/vyuka/29/index.md
     - "📊 Hodnocení": 07/hodnoceni.md
   - "🎓 8. ročník":
-    - "📚 Výukové texty": 08/index.md
+    - "📚 Výukový text": 08/index.md
     - "📅 Plán hodin":
       - "8.B Sk1": 08/plan-hodin-8b-sk1.md
       - "8.B Sk2": 08/plan-hodin-8b-sk2.md
       - "8.C Sk2": 08/plan-hodin-8c-sk2.md
+    - "📖 Výuka":
+      - "02 Digitálních zařízení, periferie a složení počítače": 08/vyuka/02/index.md
+      - "03 Kódování informace": 08/vyuka/03/index.md
+      - "04 Digitální reprezentace a binární soustava": 08/vyuka/04/index.md
+      - "05 Datové typy a komprese dat": 08/vyuka/05/index.md
+      - "06 Operační systém, průzkumník souborů a práce se soubory": 08/vyuka/06/index.md
+      - "07 Sítě, internet a webové stránky": 08/vyuka/07/index.md
+      - "08 Data a datasety": 08/vyuka/08/index.md
+      - "09 Sběr dat - pozorování okolí": 08/vyuka/09/index.md
+      - "10 Sběr dat - dotazníkové šetření": 08/vyuka/10/index.md
+      - "11 Sběr dat - MS Forms": 08/vyuka/11/index.md
+      - "12 Ukládání dat a datové typy": 08/vyuka/12/index.md
+      - "13 Vyhledávání dat a cloudové úložiště": 08/vyuka/13/index.md
+      - "14 Problémy v datech": 08/vyuka/14/index.md
+      - "15 Vyhodnocení dat": 08/vyuka/15/index.md
+      - "16 Grafy": 08/vyuka/16/index.md
+      - "17 Závěry z dat": 08/vyuka/17/index.md
+      - "18 Zpracování dat a strojové učení": 08/vyuka/18/index.md
+      - "19 MS Excel - ruční vkládání obsahu": 08/vyuka/19/index.md
+      - "20 MS Excel - načtení dat ze souboru, řazení a filtrování": 08/vyuka/20/index.md
+      - "21 MS Excel - podmíněné formátování a pravidla": 08/vyuka/21/index.md
+      - "22 MS Excel - kontingenční tabulka": 08/vyuka/22/index.md
+      - "23 MS Excel - funkce": 08/vyuka/23/index.md
+      - "24 MS Excel - vizualizace dat": 08/vyuka/24/index.md
     - "📊 Hodnocení": 08/hodnoceni.md
   - "🎓 9. ročník":
-    - "📚 Výukové texty": 09/index.md
+    - "📚 Výukový text": 09/index.md
     - "📅 Plán hodin":
       - "9.A Sk1": 09/plan-hodin-9a-sk1.md
       - "9.A Sk2": 09/plan-hodin-9a-sk2.md
       - "9.B Sk2": 09/plan-hodin-9b-sk2.md
       - "9.C Sk2": 09/plan-hodin-9c-sk2.md
+    - "📖 Výuka":
+      - "02 Příklady digitálních zařízení, periferie a složení počítače": 09/vyuka/02/index.md
+      - "03 Kódování informace, digitální reprezentace a binární soustava": 09/vyuka/03/index.md
+      - "04 Datové typy a komprese dat": 09/vyuka/04/index.md
+      - "05 Operační systém - prvky uživatelského rozhraní a uživatelské účty": 09/vyuka/05/index.md
+      - "06 Průzkumník souborů a práce se soubory": 09/vyuka/06/index.md
+      - "07 Používání aplikací a základní aplikace": 09/vyuka/07/index.md
+      - "08 Sítě": 09/vyuka/08/index.md
+      - "09 Cloudové služby": 09/vyuka/09/index.md
+      - "10 Internet a připojení k internetu": 09/vyuka/10/index.md
+      - "11 OSI model - enkapsulace": 09/vyuka/11/index.md
+      - "12 Webové stránky": 09/vyuka/12/index.md
+      - "13 Servis počítače a řešení technických problémů": 09/vyuka/13/index.md
+      - "14 Šifrování": 09/vyuka/14/index.md
+      - "15 Uživatelské účty a autentizace": 09/vyuka/15/index.md
+      - "16 Ochrana před útoky a zálohování": 09/vyuka/16/index.md
+      - "17 Informační gramotnost a kritické přemýšlení": 09/vyuka/17/index.md
+      - "18 Rizika digitálních služeb - závislost, soukromí, cizí lidé, autorství": 09/vyuka/18/index.md
+      - "19 Digitální stopa": 09/vyuka/19/index.md
+      - "20 Rizika digitální identity": 09/vyuka/20/index.md
+      - "21 Sociální sítě a doporučovací algoritmy": 09/vyuka/21/index.md
+      - "22 Umělá inteligence": 09/vyuka/22/index.md
+      - "23 Strojové učení": 09/vyuka/23/index.md
+      - "24 Robotika a drony": 09/vyuka/24/index.md
+      - "25 Zpracování obrazu a počítačové vidění": 09/vyuka/25/index.md
+      - "26 Zvukové zpracování": 09/vyuka/26/index.md
+      - "27 Virtuální a rozšířená realita": 09/vyuka/27/index.md
+      - "28 Internet věcí": 09/vyuka/28/index.md
     - "📊 Hodnocení": 09/hodnoceni.md
   - "📚 Návody":
     - navody/index.md
     - "💻 Počítačová gramotnost":
       - "🌱 Zdravé používání počítače": navody/zdrave-pouzivani-pocitace.md
-      # - "💻 Operační systém": navody/operacni-system.md
-      # - "🌐 Práce s prohlížečem": navody/prohlidace.md
-    # - "📊 Práce s informacemi":
-      # - "🔍 Efektivní vyhledávání": navody/vyhledavani.md
-      # - "🤖 AI asistenti a chatboti": navody/ai-asistenti.md
     - "☁️ Cloudové služby":
       - navody/office365.md
       - "📁 OneDrive": navody/onedrive.md
       - "📧 Outlook": navody/outlook.md
       - "📱 Microsoft Teams": navody/teams.md
-      # - "📋 Microsoft Forms": navody/forms.md
-    # - "✍️ Tvorba obsahu":
-      # - "📝 Tvorba dokumentů": navody/tvorba-dokumentu.md
-      # - "🎨 Práce s grafikou": navody/graficka-uprava.md
-      # - "🎤 Prezentování": navody/prezentovani.md
   - "📞 Kontakt":
     - kontakt/index.md
     - "👨‍🏫 Tomáš Novotný": kontakt/tomas.md
