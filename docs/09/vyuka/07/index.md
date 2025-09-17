@@ -1,3 +1,11 @@
 # 07: Používání aplikací a základní aplikace
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

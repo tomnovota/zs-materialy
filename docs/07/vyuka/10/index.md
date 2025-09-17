@@ -1,3 +1,11 @@
 # 10: Internet a připojení k internetu
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

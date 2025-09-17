@@ -1,3 +1,11 @@
 # 10: Sběr dat - dotazníkové šetření
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

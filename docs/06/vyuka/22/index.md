@@ -1,3 +1,11 @@
 # 22: Příklady a účel informačních systémů
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

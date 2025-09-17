@@ -1,3 +1,11 @@
 # 07: Průzkumník souborů a práce se soubory
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

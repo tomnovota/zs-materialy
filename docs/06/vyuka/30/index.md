@@ -1,3 +1,11 @@
 # 30: Příklady algoritmů
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

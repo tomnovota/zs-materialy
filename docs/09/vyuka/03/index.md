@@ -1,3 +1,11 @@
 # 03: Kódování informace, digitální reprezentace a binární soustava
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

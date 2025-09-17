@@ -1,3 +1,11 @@
 # 22: Tvorba digitálního obsahu - rastrová grafika
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

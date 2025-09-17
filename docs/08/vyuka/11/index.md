@@ -1,3 +1,11 @@
 # 11: Sběr dat - MS Forms
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

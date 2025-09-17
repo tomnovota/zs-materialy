@@ -1,3 +1,11 @@
 # 19: Programování ve Scratch
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

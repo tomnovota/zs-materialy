@@ -1,3 +1,11 @@
 # 03: Účel počítačů, bezpečnost při práci s počítačem, hesla
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

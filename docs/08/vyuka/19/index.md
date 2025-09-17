@@ -1,3 +1,11 @@
 # 19: MS Excel - ruční vkládání obsahu
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

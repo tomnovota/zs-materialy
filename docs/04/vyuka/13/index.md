@@ -1,3 +1,11 @@
 # 13: Informační gramotnost a kritické přemýšlení
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

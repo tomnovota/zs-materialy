@@ -1,3 +1,11 @@
 # 27: Virtuální a rozšířená realita
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

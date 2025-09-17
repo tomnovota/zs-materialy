@@ -1,3 +1,11 @@
 # 16: Ukládání dat a datové typy
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

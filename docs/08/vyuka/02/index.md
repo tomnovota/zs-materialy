@@ -1,3 +1,11 @@
 # 02: Digitálních zařízení, periferie a složení počítače
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

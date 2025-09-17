@@ -1,3 +1,11 @@
 # 04: Datové typy a komprese dat
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

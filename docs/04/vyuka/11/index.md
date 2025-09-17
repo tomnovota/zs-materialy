@@ -1,3 +1,11 @@
 # 11: Uživatelské účty a autentizace, bezpečné heslo a dvoufázové ověření
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr

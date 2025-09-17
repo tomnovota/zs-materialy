@@ -1,3 +1,11 @@
 # 13: Servis počítače a řešení technických problémů
 
-*Obsah hodiny bude doplněn.*
+## Úvod
+
+### Motivace
+
+### Cíl hodiny
+
+## Práce v hodině
+
+## Závěr
