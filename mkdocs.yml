@@ -101,7 +101,8 @@ nav:
     - "📅 Plán hodin":
       - "4.A Sk1": 04/plan-hodin-4a-sk1.md
       - "4.A Sk2": 04/plan-hodin-4a-sk2.md
-    - "📖 Výuka":
+    - "� Hodnocení": 04/hodnoceni.md
+    - "�📖 Výuka":
       - "02 Příklady digitálních zařízení, periferie, složení počítače": 04/vyuka/02/index.md
       - "03 Účel počítačů, bezpečnost při práci s počítačem, digitální reprezentace": 04/vyuka/03/index.md
       - "04 Operační systém a prvky uživatelského rozhraní": 04/vyuka/04/index.md
@@ -122,12 +123,12 @@ nav:
       - "19 Programování ve Scratch": 04/vyuka/19/index.md
       - "20 Programování s Ozobotem": 04/vyuka/20/index.md
       - "21 Tisk na 3D tiskárně": 04/vyuka/21/index.md
-    - "📊 Hodnocení": 04/hodnoceni.md
   - "🎓 5. ročník":
     - "📚 Výukový text": 05/index.md
     - "📅 Plán hodin":
       - "5.B Sk1": 05/plan-hodin-5b-sk1.md
       - "5.B Sk2": 05/plan-hodin-5b-sk2.md
+    - "📊 Hodnocení": 05/hodnoceni.md
     - "📖 Výuka":
       - "02 Příklady digitálních zařízení, periferie a složení počítače": 05/vyuka/02/index.md
       - "03 Účel počítačů, bezpečnost při práci s počítačem, hesla": 05/vyuka/03/index.md
@@ -159,6 +160,7 @@ nav:
     - "📅 Plán hodin":
       - "6.C Sk1": 06/plan-hodin-6c-sk1.md
       - "6.C Sk2": 06/plan-hodin-6c-sk2.md
+    - "📊 Hodnocení": 06/hodnoceni.md
     - "📖 Výuka":
       - "02 Příklady digitálních zařízení, periferie a složení počítače": 06/vyuka/02/index.md
       - "03 Účel počítačů, bezpečnost při práci s počítačem, hesla": 06/vyuka/03/index.md
@@ -199,7 +201,8 @@ nav:
       - "7.A Sk2": 07/plan-hodin-7a-sk2.md
       - "7.B Sk1": 07/plan-hodin-7b-sk1.md
       - "7.B Sk2": 07/plan-hodin-7b-sk2.md
-    - "📖 Výuka":
+    - "� Hodnocení": 07/hodnoceni.md
+    - "�📖 Výuka":
       - "02 Příklady digitálních zařízení, periferie a složení počítače": 07/vyuka/02/index.md
       - "03 Účel počítačů, bezpečnost při práci s počítačem, hesla": 07/vyuka/03/index.md
       - "04 Kódování informace a digitální reprezentace": 07/vyuka/04/index.md
@@ -235,7 +238,8 @@ nav:
       - "8.B Sk1": 08/plan-hodin-8b-sk1.md
       - "8.B Sk2": 08/plan-hodin-8b-sk2.md
       - "8.C Sk2": 08/plan-hodin-8c-sk2.md
-    - "📖 Výuka":
+    - "� Hodnocení": 08/hodnoceni.md
+    - "�📖 Výuka":
       - "02 Digitálních zařízení, periferie a složení počítače": 08/vyuka/02/index.md
       - "03 Kódování informace": 08/vyuka/03/index.md
       - "04 Digitální reprezentace a binární soustava": 08/vyuka/04/index.md
@@ -267,6 +271,7 @@ nav:
       - "9.A Sk2": 09/plan-hodin-9a-sk2.md
       - "9.B Sk2": 09/plan-hodin-9b-sk2.md
       - "9.C Sk2": 09/plan-hodin-9c-sk2.md
+    - "📊 Hodnocení": 09/hodnoceni.md
     - "📖 Výuka":
       - "02 Příklady digitálních zařízení, periferie a složení počítače": 09/vyuka/02/index.md
       - "03 Kódování informace, digitální reprezentace a binární soustava": 09/vyuka/03/index.md
