@@ -33,7 +33,7 @@ Každý den pracujeme se soubory (fotky, dokumenty, hudba). V této hodině se z
 
     **Aktivita:**
     - najděte na webu soubory s výše zmíněnými příponami a podívejte se na jejich vlastnosti (velikost, kvalita, kde se používají)
-    > Nápovšda: do vyhledávacího pole zadejte např. `strom filetype:png` nebo `strom filetype:mp4`
+    > Nápověda: do vyhledávacího pole zadejte např. `strom filetype:png` nebo `strom filetype:mp4`
 
 2) Komprese dat (10 min)
 
