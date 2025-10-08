@@ -56,11 +56,7 @@ Každý den pracujeme se soubory (fotky, dokumenty, hudba). V této hodině se z
 - Úkol 2: Máte dvě verze fotografie: `foto.jpg` (ztrátová) a `foto.png` (bezztrátová). Kterou zvolíte pro tisk o velikosti A4 a proč? Kterou pro zaslání e‑mailem, když je potřeba ušetřit kapacitu?
 - Úkol 3: Zabalte oba soubory do ZIP archivu a porovnejte velikost s původními soubory.
 
-## Cvičení (k vyučování / domácí úkol)
-
-Pro domácí procvičení nechte žáky udělat následující úkoly; uložte je na papír nebo do elektronického dokumentu.
-
-1) RLE (úroveň: rozumné porozumění)
+- Úkol 4: RLE (úroveň: rozumné porozumění)
 	 - Aplikujte run‑length encoding na binární řetězec: 11110000000011111
 
 ## Závěr (5 min)
