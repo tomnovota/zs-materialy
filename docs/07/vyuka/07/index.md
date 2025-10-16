@@ -1,7 +1,7 @@
 # Průzkumník souborů a práce se soubory
 
 ## Odkaz na soubory
-[Soubory]([https://example.com](https://zshovorcovicka-my.sharepoint.com/:f:/g/personal/tomas_novotny_zshovorcovicka_cz/EuOF1rY0bzNHgNm7fwUOxxEBhcq2wSQxHiQ7kZBTocAnRA))
+[Soubory](https://zshovorcovicka-my.sharepoint.com/:f:/g/personal/tomas_novotny_zshovorcovicka_cz/EuOF1rY0bzNHgNm7fwUOxxEBhcq2wSQxHiQ7kZBTocAnRA)
 
 ## Úvod
 
