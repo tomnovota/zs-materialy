@@ -3,6 +3,7 @@
 Odkaz na školní Outlook je dostupný přes [Office 365 Outlook](https://outlook.office.com/mail/?realm=zshovorcovicka.cz).
 
 🔗 **Užitečné odkazy:**
+
 - [Outlook nápověda](https://support.microsoft.com/cs-cz/office/outlook)
 - [Outlook pro školy](https://www.microsoft.com/cs-cz/education/products/office)
 
@@ -17,12 +18,14 @@ Odkaz na školní Outlook je dostupný přes [Office 365 Outlook](https://outloo
 ## 🚀 Přístup k Outlook
 
 ### Způsoby přístupu
+
 - **Web:** [outlook.office.com/mail](https://outlook.office.com/mail/?realm=zshovorcovicka.cz)
 - **Aplikace:** [Outlook pro Windows/Mac](https://www.microsoft.com/cs-cz/microsoft-365/outlook/)
 - **Mobilní:** Outlook app na telefon/tablet
 - **Alternativní:** jiné email klienty (GMail, Apple Mail)
 
 ### První přihlášení
+
 1. **Otevřít** Outlook
 2. **Přihlásit se** školním Microsoft účtem
    - **email:** AxxAxx@stu.zshovorcovicka.cz (kde AxxAxx je vaše školní ID jako v učebně, např. a01b01)
@@ -65,6 +68,7 @@ Jan Novák
 ### Etika emailové komunikace
 
 #### ✅ Dobré praktiky
+
 - **Výstižný předmět** - příjemce hned ví, o co jde
 - **Zdvořilé oslovení** - formální komunikace se školou
 - **Jasné sdělení** - co potřebujete/chcete
@@ -73,7 +77,8 @@ Jan Novák
 - **Kontrola pravopisu** - před odesláním zkontrolovat
 
 #### ❌ Chyby, kterým se vyhnout
-- **Velká písmena** - působí jako křik
+
+- **Pouze velká písmena (CAPS LOCK)** - působí jako křik
 - **Příliš neformální** - slangové výrazy, emotikony
 - **Prázdný předmět** - těžké roztřídit a najít
 - **Nejasné požadavky** - neurčité dotazy
