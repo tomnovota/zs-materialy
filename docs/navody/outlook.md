@@ -10,6 +10,7 @@ Odkaz na školní Outlook je dostupný přes [Office 365 Outlook](https://outloo
 ## 📮 Co je Microsoft Outlook?
 
 **Microsoft Outlook** je komplexní emailový a kalendářový nástroj, který umožňuje:
+
 - **Správu emailů** - přijímání, odesílání, organizace
 - **Kalendář** - plánování událostí a připomínek
 - **Kontakty** - správa adresáře osob
