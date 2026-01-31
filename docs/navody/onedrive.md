@@ -3,12 +3,15 @@
 Odkaz na školní OneDrive je dostupný přes [Office 365 OneDrive](https://zshovorcovicka-my.sharepoint.com/my?).
 
 🔗 **Užitečné odkazy:**
+
 - [Stažení OneDrive aplikace](https://www.microsoft.com/cs-cz/microsoft-365/onedrive/download)
 - [OneDrive pomoc a podpora](https://support.microsoft.com/cs-cz/office/onedrive)
 - [OneDrive pro školy](https://www.microsoft.com/cs-cz/education/products/office)
+
 ## 🌐 Co je OneDrive?
 
 **OneDrive** je cloudová služba od Microsoftu, která umožňuje:
+
 - **Ukládání souborů online** - přístup odkudkoli
 - **Synchronizaci** - stejné soubory na všech zařízeních
 - **Sdílení** - spolupráci s ostatními

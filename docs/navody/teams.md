@@ -3,6 +3,7 @@
 Odkaz na školní Microsoft Teams je dostupný přes [Office 365 Teams](https://teams.microsoft.com/).
 
 🔗 **Užitečné odkazy:**
+
 - [Stažení Teams aplikace](https://www.microsoft.com/cs-cz/microsoft-teams/download-app)
 - [Teams pomoc a podpora](https://support.microsoft.com/cs-cz/teams)
 - [Teams pro školy](https://www.microsoft.com/cs-cz/education/products/office)
@@ -10,6 +11,7 @@ Odkaz na školní Microsoft Teams je dostupný přes [Office 365 Teams](https://
 ## 🌐 Co je Microsoft Teams?
 
 **Microsoft Teams** je platforma pro online spolupráci, která umožňuje:
+
 - **Komunikaci** - chat, hovory, videokonference
 - **Spolupráci** - sdílení a úpravy dokumentů v reálném čase
 - **Organizaci** - týmy, kanály, úkoly a poznámky
