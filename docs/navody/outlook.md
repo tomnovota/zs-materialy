@@ -37,13 +37,13 @@ Odkaz na školní Outlook je dostupný přes [Office 365 Outlook](https://outloo
 ### Šablona pro školní komunikaci
 ```
 Předmět: Informatika: [stručný popis obsahu]
-Oslovení: Dobrý den paní učitelko/pane učiteli,
+Oslovení: Vážený pane učiteli/paní učitelko,
 
 Úvod: účel emailu v jedné větě
 Hlavní část: podrobnosti, kontext, otázky
 Závěr: jasná žádost o akci nebo poděkování
 
-S pozdravem,
+S pozdravem
 [Vaše jméno]
 [Třída]
 ```
@@ -54,14 +54,14 @@ S pozdravem,
 ```
 Předmět: Informatika: Dotaz k domácímu úkolu
 
-Dobrý den pane učiteli,
+Vážený pane učiteli,
 
 obracím se na Vás s dotazem k domácímu úkolu z informatiky na zítra.
 Snažil jsem se vyřešit příklad číslo 5 na straně 23, ale nevím si rady s druhou částí rovnice.
 
 Mohl byste mi prosím poradit s postupem nebo poskytnout nápovědu?
 
-S pozdravem,
+S pozdravem
 Jan Novák
 9.A
 ```
